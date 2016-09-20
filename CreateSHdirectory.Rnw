@@ -1,0 +1,59 @@
+\documentclass[landscape]{book}
+\usepackage[margin=.5in]{geometry}
+\usepackage{array}
+\usepackage{longtable}
+\usepackage{multirow}
+% \usepackage{seqsplit}
+
+
+\begin{document}
+
+<<libraries, echo = FALSE, message = FALSE, warning = FALSE>>=
+library(reshape2)
+@
+
+% read in data from qualtrics and create directory pages
+<<ReadIn, echo = FALSE, warning = FALSE, message=FALSE>>=
+df <- read.csv("DirectoryData/SHDirectory.csv", skip = 1, stringsAsFactors = FALSE)
+df <- df[, 15:28]
+names(df) <- c("Child",
+               "Parent1",
+               "Parent1.email",
+               "Parent1.listserve",
+               "Parent1.cell",
+               "Parent1.home",
+               "Parent2",
+               "Parent2.email",
+               "Parent2.listserve",
+               "Parent2.cell",
+               "Parent2.home",
+               "Address",
+               "Class",
+               "accept")
+
+df$Parent1.email.clean <- gsub("_", "\\\\_", df$Parent1.email)
+df$Parent2.email.clean <- gsub("_", "\\\\_", df$Parent2.email)
+df$Child.clean <- gsub("&", "\\\\&", df$Child)
+
+byStudent <- melt(df, id = c("Child", "Address", "Class"))
+
+@
+
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{100pt}|p{70pt}|}
+% \begin{tabular}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address & Class\\
+\hline
+
+<<SummarizeByStudent, echo = FALSE, results = 'asis'>>=
+for(i in 1:dim(df)[1]){
+  if(df$Child[i] != ""){
+    writeLines(paste0("\\multirow{2}{70pt}{", df$Child.clean[i], "} & ", df$Parent1[i], " & ", df$Parent1.email.clean[i], " & ", df$Parent1.cell[i], " & ", df$Parent1.home[i], " & ", "\\multirow{2}{100pt}{", df$Address[i], "} & \\multirow{2}{70pt}{", df$Class[i], "}\\\\"))
+    writeLines(paste0(" & ", df$Parent2[i], " & ", df$Parent2.email.clean[i], " & ", df$Parent2.cell[i], " & ", df$Parent2.home[i], " & & \\\\"))
+    writeLines("\\hline")
+  }
+}
+@
+\hline
+\end{longtable}
+
+\end{document}

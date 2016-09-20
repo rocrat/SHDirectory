@@ -1,0 +1,673 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.28)  20 SEP 2016 12:18
+entering extended mode
+**./CreateSHdirectory.tex
+(CreateSHdirectory.tex
+LaTeX2e <2015/10/01> patch level 2
+Babel <3.9n> and hyphenation patterns for 69 languages loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2014/09/29 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk10.clo"
+File: bk10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2014/10/28 v1.0p Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: pdftex.def on input line 94.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
+File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
+)
+\Gread@gobject=\count88
+))
+\Gin@req@height=\dimen103
+\Gin@req@width=\dimen104
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2014/10/28 v1.1a Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: pdftex.def on input line 142.
+)
+("C:\Users\dlaroche\AppData\Local\Programs\MiKTeX 2.9\tex\latex\framed\framed.s
+ty"
+Package: framed 2011/10/22 v 0.96: framed or shaded text with page breaks
+\OuterFrameSep=\skip43
+\fb@frw=\dimen105
+\fb@frh=\dimen106
+\FrameRule=\dimen107
+\FrameSep=\dimen108
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\base\alltt.sty"
+Package: alltt 1997/06/16 v2.0g defines alltt environment
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in PDF mode is detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks15
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2014/10/28 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen117
+\extrarowheight=\dimen118
+\NC@list=\toks16
+\extratabsurround=\skip44
+\backup@length=\skip45
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip46
+\LTright=\skip47
+\LTpre=\skip48
+\LTpost=\skip49
+\LTchunksize=\count92
+\LTcapwidth=\dimen119
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count93
+\LT@rows=\count94
+\c@LT@tables=\count95
+\c@LT@chunks=\count96
+\LT@p@ftn=\toks17
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\multirow\multirow.sty"
+\bigstrutjot=\dimen120
+)
+("C:\Users\dlaroche\AppData\Local\Programs\MiKTeX 2.9\tex\latex\upquote\upquote
+.sty"
+Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
+tim
+) (CreateSHdirectory.aux)
+\openout1 = `CreateSHdirectory.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
+LaTeX Font Info:    ... okay on input line 58.
+
+("C:\Users\dlaroche\AppData\Local\Programs\MiKTeX 2.9\tex\context\base\supp-pdf
+.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count97
+\scratchdimen=\dimen121
+\scratchbox=\box30
+\nofMPsegments=\count98
+\nofMParguments=\count99
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count100
+\MPscratchDim=\dimen122
+\MPnumerator=\count101
+\makeMPintoPDFobject=\count102
+\everyMPtoPDFconversion=\toks19
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: landscape twoside 
+* h-part:(L,W,R)=(36.135pt, 722.7pt, 36.135pt)
+* v-part:(T,H,B)=(36.135pt, 542.02501pt, 36.135pt)
+* \paperwidth=794.96999pt
+* \paperheight=614.295pt
+* \textwidth=722.7pt
+* \textheight=542.02501pt
+* \oddsidemargin=-36.135pt
+* \evensidemargin=-36.135pt
+* \topmargin=-66.20248pt
+* \headheight=12.0pt
+* \headsep=18.06749pt
+* \topskip=10.0pt
+* \footskip=25.29494pt
+* \marginparwidth=144.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidetrue
+* \@mparswitchtrue
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+
+Overfull \vbox (12.0pt too high) detected at line 88
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+[]|\OT1/cmr/m/n/10 M Pa-tri-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 89--89
+\OT1/cmr/m/n/10 cia Dorado-
+ []
+
+
+Overfull \hbox (20.00024pt too wide) in paragraph at lines 89--89
+[]|\OT1/cmr/m/n/10 0115216622048675| 
+ []
+
+
+Overfull \hbox (4.8059pt too wide) in paragraph at lines 91--91
+[]|\OT1/cmr/m/n/10 jmpatterson2216@gmail.com| 
+ []
+
+
+Overfull \hbox (33.97256pt too wide) in paragraph at lines 106--106
+[]|\OT1/cmr/m/n/10 welovedogs@dogmadogdaycare.com| 
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 112
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 115--115
+[]|\OT1/cmr/m/n/10 Jennifer Kirk-
+ []
+
+
+Overfull \hbox (17.86148pt too wide) in paragraph at lines 115--115
+[]|\OT1/cmr/m/n/10 jenniferkirkpatrick1@gmail.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+[]|\OT1/cmr/m/n/10 Chris Kirk-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 121--121
+[]|\OT1/cmr/m/n/10 Caryn Isom
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 121
+ []
+
+
+Overfull \hbox (18.8893pt too wide) in paragraph at lines 127--127
+[]|\OT1/cmr/m/n/10 honkytonkhacienda@yahoo.com| 
+ []
+
+
+Overfull \hbox (17.05586pt too wide) in paragraph at lines 128--128
+[]|\OT1/cmr/m/n/10 dschoonover@email.arizona.edu| 
+ []
+
+
+Overfull \hbox (3.1114pt too wide) in paragraph at lines 130--130
+[]|\OT1/cmr/m/n/10 veronicaf@email.arizona.edu| 
+ []
+
+
+Overfull \hbox (23.69481pt too wide) in paragraph at lines 145--145
+[]|\OT1/cmr/m/n/10 littlemountainstream@gmail.com| 
+ []
+
+
+Underfull \hbox (badness 2875) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/10 Evan Wor-thing-
+ []
+
+
+Overfull \hbox (13.63925pt too wide) in paragraph at lines 149--149
+[]|\OT1/cmr/m/n/10 evanworthington@outlook.com| 
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 151
+ []
+
+[1{C:/Users/dlaroche/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/10 Danyelle
+ []
+
+
+Overfull \hbox (0.58365pt too wide) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/10 danyellekhmara@gmail.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 169--169
+[]|\OT1/cmr/m/n/10 (818) 512-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\OT1/cmr/m/n/10 Laura McAn-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 170--170
+[]|\OT1/cmr/m/n/10 (520) 401-
+ []
+
+
+Overfull \hbox (18.13919pt too wide) in paragraph at lines 173--173
+[]|\OT1/cmr/m/n/10 george@hermancontracting.com| 
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 178
+ []
+
+
+Underfull \hbox (badness 6542) in paragraph at lines 194--194
+[]|\OT1/cmr/m/n/10 Joshua Werten-
+ []
+
+
+Overfull \hbox (6.10033pt too wide) in paragraph at lines 196--196
+[]|\OT1/cmr/m/n/10 amanda[]celaya@hotmail.com| 
+ []
+
+
+Overfull \hbox (4.50023pt too wide) in paragraph at lines 203--203
+[]|\OT1/cmr/m/n/10 Denise.connors@comcast.net| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 211--211
+[]|\OT1/cmr/m/n/10 Francisco Pe-
+ []
+
+
+Overfull \hbox (15.0281pt too wide) in paragraph at lines 214--214
+[]|\OT1/cmr/m/n/10 martinezangelica@hotmail.com| 
+ []
+
+[2]
+Underfull \hbox (badness 10000) in paragraph at lines 218--218
+[]|\OT1/cmr/m/n/10 Amanda
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 226--226
+[]|\OT1/cmr/m/n/10 Francine Mar-
+ []
+
+
+Overfull \hbox (0.86145pt too wide) in paragraph at lines 229--229
+[]|\OT1/cmr/m/n/10 nmurphy2027@hotmail.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 233--233
+[]|\OT1/cmr/m/n/10 Athena Gan-
+ []
+
+
+Overfull \hbox (4.22252pt too wide) in paragraph at lines 233--233
+[]|\OT1/cmr/m/n/10 athenaganchorre@gmail.com| 
+ []
+
+
+Overfull \hbox (4.94476pt too wide) in paragraph at lines 235--235
+[]|\OT1/cmr/m/n/10 Lorenaromero99@yahoo.com| 
+ []
+
+
+Overfull \hbox (25.97264pt too wide) in paragraph at lines 238--238
+[]|\OT1/cmr/m/n/10 krishnasbodypainting@gmail.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--257
+[]|\OT1/cmr/m/n/10 Adalberto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--260
+[]|\OT1/cmr/m/n/10 Adalberto
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 262--262
+[]|\OT1/cmr/m/n/10 Lesleigh
+ []
+
+
+Overfull \hbox (21.94478pt too wide) in paragraph at lines 262--262
+[]|\OT1/cmr/m/n/10 Lesleigh.rutkowski@hotmail.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 265--265
+[]|\OT1/cmr/m/n/10 Lesleigh
+ []
+
+
+Overfull \hbox (21.94478pt too wide) in paragraph at lines 265--265
+[]|\OT1/cmr/m/n/10 Lesleigh.rutkowski@hotmail.com| 
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 271
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 274
+ []
+
+
+Overfull \hbox (4.61136pt too wide) in paragraph at lines 274--274
+[]|\OT1/cmr/m/n/10 eric.j.christensen@gmail.com| 
+ []
+
+[3]
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+[]|\OT1/cmr/m/n/10 Shelley
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 278--278
+\OT1/cmr/m/n/10 Hawthorne
+ []
+
+
+Overfull \hbox (4.77808pt too wide) in paragraph at lines 281--281
+[]|\OT1/cmr/m/n/10 tyler.jacob.meier@gmail.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 287--287
+[]|\OT1/cmr/m/n/10 Michelle Ren-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 289--289
+[]|\OT1/cmr/m/n/10 (520)977-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 290--290
+[]|\OT1/cmr/m/n/10 (520)661-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 292--292
+[]|\OT1/cmr/m/n/10 Lisa Hacker
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 295--295
+[]|\OT1/cmr/m/n/10 Justine Wol-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 296--296
+[]|\OT1/cmr/m/n/10 Charles Wol-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 298--298
+[]|\OT1/cmr/m/n/10 Justine Wol-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 299--299
+[]|\OT1/cmr/m/n/10 Charles Wol-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 301--301
+[]|\OT1/cmr/m/n/10 Justine Wol-ge-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 302--302
+[]|\OT1/cmr/m/n/10 Charles Wol-ge-
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 304
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 304--304
+[]|\OT1/cmr/m/n/10 Nastia, Snider-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 305--305
+[]|\OT1/cmr/m/n/10 Brian, Snider-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 307--307
+[]|\OT1/cmr/m/n/10 Nastia, Snider-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 308--308
+[]|\OT1/cmr/m/n/10 Brian, Snider-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 320--320
+[]|\OT1/cmr/m/n/10 Ken Youens-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 323--323
+[]|\OT1/cmr/m/n/10 Ken Youens-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+[]|\OT1/cmr/m/n/10 Matthew, Sta-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 326--326
+[]|\OT1/cmr/m/n/10 Jessica, Sum-
+ []
+
+
+Overfull \hbox (5.44473pt too wide) in paragraph at lines 326--326
+[]|\OT1/cmr/m/n/10 jsummers@email.arizona.edu| 
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 328
+ []
+
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ± in font cmr10!
+[4]
+Overfull \hbox (5.33365pt too wide) in paragraph at lines 349--349
+[]|\OT1/cmr/m/n/10 eleonorademaria@yahoo.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 350--350
+[]|\OT1/cmr/m/n/10 Eleonora De-
+ []
+
+
+Overfull \hbox (7.44467pt too wide) in paragraph at lines 352--352
+[]|\OT1/cmr/m/n/10 desiree.groseclose@gmail.com| 
+ []
+
+
+Underfull \hbox (badness 6236) in paragraph at lines 355--355
+[]|\OT1/cmr/m/n/10 Carolyn An-der-
+ []
+
+
+Overfull \hbox (6.77806pt too wide) in paragraph at lines 361--361
+[]|\OT1/cmr/m/n/10 bill@workerincorporated.com| 
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 361
+ []
+
+
+Overfull \hbox (11.1392pt too wide) in paragraph at lines 362--362
+[]|\OT1/cmr/m/n/10 theorganickitchen@yahoo.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 364--364
+[]|\OT1/cmr/m/n/10 Stephanie Car-
+ []
+
+[5]
+! You can't use `macro parameter character #' in horizontal mode.
+<argument> 1810 E Blacklidge Dr. ##
+                                   606
+l.370 ...row{2}{100pt}{1810 E Blacklidge Dr. #606}
+                                                   & \multirow{2}{70pt}{Grog...
+Sorry, but I'm not programmed to handle this case;
+I'll just pretend that you didn't ask for it.
+If you're in the wrong mode, you might be able to
+return to the right one by typing `I}' or `I$' or `I\par'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[]|\OT1/cmr/m/n/10 Starlight Noel-
+ []
+
+
+Overfull \hbox (21.7781pt too wide) in paragraph at lines 379--379
+[]|\OT1/cmr/m/n/10 snoelarmenta@email.arizona.edu| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 379--379
+[]|\OT1/cmr/m/n/10 (520)979-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 380--380
+[]|\OT1/cmr/m/n/10 (520)955-
+ []
+
+
+Overfull \hbox (1.73918pt too wide) in paragraph at lines 403--403
+[]|\OT1/cmr/m/n/10 jesenia[]ortega@hotmail.com| 
+ []
+
+
+Overfull \vbox (12.0pt too high) detected at line 403
+ []
+
+
+Overfull \hbox (2.26698pt too wide) in paragraph at lines 404--404
+[]|\OT1/cmr/m/n/10 ortega[]alfredo@hotmail.com| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 424--424
+[]|\OT1/cmr/m/n/10 Meredith Lip-
+ []
+
+[6]
+Underfull \hbox (badness 10000) in paragraph at lines 428--428
+[]|\OT1/cmr/m/n/10 Daniel Cas-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 431--431
+[]|\OT1/cmr/m/n/10 Daniel Cas-
+ []
+
+[7] (CreateSHdirectory.aux) ) 
+Here is how much of TeX's memory you used:
+ 1900 strings out of 493634
+ 26013 string characters out of 3143735
+ 158227 words of memory out of 3000000
+ 5296 multiletter control sequences out of 15000+200000
+ 3993 words of font info for 15 fonts, out of 3000000 for 9000
+ 1025 hyphenation exceptions out of 8191
+ 27i,7n,32p,305b,231s stack positions out of 5000i,500n,10000p,200000b,50000s
+<C:/Program Files/MiKTeX 2.9/fonts/type1/public/am
+sfonts/cm/cmr10.pfb>
+Output written on CreateSHdirectory.pdf (7 pages, 54398 bytes).
+PDF statistics:
+ 30 PDF objects out of 1000 (max. 8388607)
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+
