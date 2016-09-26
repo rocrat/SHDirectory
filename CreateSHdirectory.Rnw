@@ -1,21 +1,39 @@
-\documentclass[landscape]{book}
+\documentclass[landscape]{article}
 \usepackage[margin=.5in]{geometry}
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{multirow}
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
 % \usepackage{seqsplit}
 
 
 \begin{document}
+{
+\centering
+
+\includegraphics{./images/SamHughesHuskies}
+
+\Huge
+\textbf{Sam Hughes Student Directory\\ 2016-17}
+
+}
+\newpage
+\tableofcontents
+\newpage
 
 <<libraries, echo = FALSE, message = FALSE, warning = FALSE>>=
+library(HTGPackage)
 library(reshape2)
+library(ggplot2)
 @
 
 % read in data from qualtrics and create directory pages
-<<ReadIn, echo = FALSE, warning = FALSE, message=FALSE>>=
-df <- read.csv("DirectoryData/SHDirectory.csv", skip = 1, stringsAsFactors = FALSE)
-df <- df[, 15:28]
+<<ReadIn, echo = FALSE, warning = FALSE, message=FALSE, results = 'hide', fig.keep='none'>>=
+dfall <- read.csv("DirectoryData/SHDirectory.csv", skip = 1, stringsAsFactors = FALSE)
+dfall$date <- as.Date(gsub("(.*)\\s.*", "\\1", dfall$Start.Date), "%Y-%m-%d")
+ggplot(dfall, aes(x = date)) + geom_bar() + xlim(as.Date(c("2016-08-29", "2016-9-26"))) + plotTheme()#highlight when emailwas sent
+
+df <- dfall[, 15:28]
 names(df) <- c("Child",
                "Parent1",
                "Parent1.email",
@@ -39,21 +57,41 @@ byStudent <- melt(df, id = c("Child", "Address", "Class"))
 
 @
 
-\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{100pt}|p{70pt}|}
-% \begin{tabular}
-Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address & Class\\
-\hline
 
-<<SummarizeByStudent, echo = FALSE, results = 'asis'>>=
-for(i in 1:dim(df)[1]){
-  if(df$Child[i] != ""){
-    writeLines(paste0("\\multirow{2}{70pt}{", df$Child.clean[i], "} & ", df$Parent1[i], " & ", df$Parent1.email.clean[i], " & ", df$Parent1.cell[i], " & ", df$Parent1.home[i], " & ", "\\multirow{2}{100pt}{", df$Address[i], "} & \\multirow{2}{70pt}{", df$Class[i], "}\\\\"))
-    writeLines(paste0(" & ", df$Parent2[i], " & ", df$Parent2.email.clean[i], " & ", df$Parent2.cell[i], " & ", df$Parent2.home[i], " & & \\\\"))
+%Separate out by grade and teacher then print a section and table for each
+
+<<Print table, echo = FALSE, results = 'asis'>>=
+classes <- c("Kinder", "1st", "2nd", "3rd", "4th", "5th")
+for(j in 1:length(classes)){
+  writeLines(paste0("\\section{", classes[j], "}"))
+  secClasses <- gsub("(\\w+)\\-\\w+", "\\1", unique(df[which(grepl(classes[j], df$Class)), ]$Class))
+  for(k in 1:length(secClasses)){
+    writeLines(paste0("\\subsection{", secClasses[k], "}"))
+    tmpdf <- df[which(grepl(secClasses[k], df$Class)), ]
+    #Print the table for the class
+    writeLines("\\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}")
+    writeLines("Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\\\")
     writeLines("\\hline")
+    for(i in 1:dim(tmpdf)[1]){
+      if(tmpdf$Child[i] != ""){
+        writeLines(paste0("\\multirow{2}{70pt}{", tmpdf$Child.clean[i], "} & ", tmpdf$Parent1[i], " & ", tmpdf$Parent1.email.clean[i], " & ", tmpdf$Parent1.cell[i], " & ", tmpdf$Parent1.home[i], " & ", "\\multirow{2}{100pt}{", tmpdf$Address[i], "} \\\\"))
+        writeLines(paste0(" & ", tmpdf$Parent2[i], " & ", tmpdf$Parent2.email.clean[i], " & ", tmpdf$Parent2.cell[i], " & ", tmpdf$Parent2.home[i], " & \\\\"))
+        writeLines("\\hline")
+        
+      }
+    }
+    writeLines("\\end{longtable}")
+    writeLines("\\newpage")
   }
 }
+  
+
+
+
+
+
 @
 \hline
-\end{longtable}
+
 
 \end{document}

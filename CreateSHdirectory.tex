@@ -1,4 +1,4 @@
-\documentclass[landscape]{book}\usepackage[]{graphicx}\usepackage[]{color}
+\documentclass[landscape]{article}\usepackage[]{graphicx}\usepackage[]{color}
 %% maxwidth is the original width if it is less than linewidth
 %% otherwise use linewidth (to make sure the graphics do not exceed the margin)
 \makeatletter
@@ -53,385 +53,615 @@
 \usepackage{array}
 \usepackage{longtable}
 \usepackage{multirow}
+\usepackage[colorlinks=true,linkcolor=blue]{hyperref}
 % \usepackage{seqsplit}
 \IfFileExists{upquote.sty}{\usepackage{upquote}}{}
 \begin{document}
+{
+\centering
+
+\includegraphics{./images/SamHughesHuskies}
+
+\Huge
+\textbf{Sam Hughes Student Directory\\ 2016-17}
+
+}
+\newpage
+\tableofcontents
+\newpage
 
 
 
 % read in data from qualtrics and create directory pages
 
 
-\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{100pt}|p{70pt}|}
-% \begin{tabular}
-Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address & Class\\
-\hline
 
-\multirow{2}{70pt}{Maximiliano Celaya-Priefert} & Janette Priefert & janettecp@gmail.com & 602-502-6561 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Patterson-Kinder}\\
- & Sean Priefert &  & 480-251-2625 &  & & \\
-\hline
-\multirow{2}{70pt}{Mariasha Taariq} & AFM Tariqul Islam & tariq\_du@yahoo.com & 5204050115 & 5204050115 & \multirow{2}{100pt}{5402 E. 3rd St. Tucson, AZ85711} & \multirow{2}{70pt}{Barry-5th}\\
- & Pricila Moly & pricilam75@yahoo.com & 5202475934 &  & & \\
-\hline
-\multirow{2}{70pt}{Adam Yrigoyen} & Karen Yrigoyen  & Kd\_watson@msn.com & 5202458976 &  & \multirow{2}{100pt}{1621 E Holladay St} & \multirow{2}{70pt}{Harris-4th}\\
- & Robert Yrigoyen & Flx\_33@hotmail.com  & 5208916162 & 5202458976 & & \\
-\hline
-\multirow{2}{70pt}{Eleanor Helseth} & Lynn Helseth & lhelseth@earthlink.net & 520-204-0593 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Barry-5th}\\
- & Greg Helseth & glhelseth@earthlink.net & 520-204-3251 &  & & \\
-\hline
-\multirow{2}{70pt}{Luna-Brook Cortez-Shenk} & Fabian Shenk & fshenk01@gmail.com & 520-270-6271 & 520-270-6271 & \multirow{2}{100pt}{255 N Granada Ave} & \multirow{2}{70pt}{Rumney-1st}\\
- & Sabrina Cortez & sabrina.cortez82@live.com & 520-331-8521 & 520-331-8521 & & \\
-\hline
-\multirow{2}{70pt}{Yahan Liu} & Jun Zhang & 13522995266@163.com & 520-328-7297 &  & \multirow{2}{100pt}{2929 E 6th st APT 106, Tucson, AZ 85716} & \multirow{2}{70pt}{Grogan-5th}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Nicolas Lawrence} & Felix Lawrence & flexi\_lorenzo@yahoo.com & 6026800139 & 5203735837 & \multirow{2}{100pt}{2929 E. 6th Street. Apt. 238. Tucson,AZ 85716} & \multirow{2}{70pt}{Ford-4th}\\
- & M Patricia Dorado-Lawrence & mpdh80@hotmail.com & 0115216622048675 & 5203735837 & & \\
-\hline
-\multirow{2}{70pt}{Jesse Alred} & Jenifer Patterson & jmpatterson2216@gmail.com & 5202753529 &  & \multirow{2}{100pt}{2216 E. 7th St.} & \multirow{2}{70pt}{Ford-4th}\\
- & Joe Alred & joealred@msn.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Kai Nelson} & Sun No & sunnyno@gmail.com & 217-766-7592 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Rumney-1st}\\
- & Paul Nelson &  & 217-714-4232 &  & & \\
-\hline
-\multirow{2}{70pt}{Gianna Briante Matuk} & Farid Matuk & matuk@email.arizona.edu &  &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Gariepy-Kinder}\\
- & Susan Briante & scbriante@yahoo.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Riley Pollard} & Marnie Pollard & marmpoll3@gmail.com & 520-349-6941 &  & \multirow{2}{100pt}{1821 N Tucson Blvd Tucson, AZ 85716} & \multirow{2}{70pt}{Kingsley-5th}\\
- & John Pollard &  & 520-349-7154 &  & & \\
-\hline
-\multirow{2}{70pt}{Dylan Pollard} & Marnie Pollard & marmpoll3@gmail.com & 520-349-6941 &  & \multirow{2}{100pt}{1821 N Tucson Blvd Tucson, AZ 85716} & \multirow{2}{70pt}{Patterson-Kinder}\\
- & John Pollard &  & 349-7154 &  & & \\
-\hline
-\multirow{2}{70pt}{Maximilian Mueller} & Cindy Mueller & welovedogs@dogmadogdaycare.com & 520.465.3716 &  & \multirow{2}{100pt}{3028 E 1st Street, Tucson, AZ 85716} & \multirow{2}{70pt}{May-4th}\\
- & Philip Mueller & muellerfund@yahoo.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Ailsa Douglas} & Jenny Douglas & Jenny@tilquhillie.com & 5202453631 & 5203268633 & \multirow{2}{100pt}{3009 E Waverly St} & \multirow{2}{70pt}{Barry-5th}\\
- & Gawain Douglas & Gawain@tilquhillie.com & 5202489305 & 5203268633 & & \\
-\hline
-\multirow{2}{70pt}{Lily Newell} & Wieke de Boer & wiekedeboer@gmail.com & 520-204-7194 &  & \multirow{2}{100pt}{3156 E. Terra Alta Blvd, Tucson AZ 85716} & \multirow{2}{70pt}{Rumney-1st}\\
- & Karl Newell & karlnewell@gmail.com & 520-390-7941 &  & & \\
-\hline
-\multirow{2}{70pt}{Graham Kirkpatrick} & Jennifer Kirkpatrick & jenniferkirkpatrick1@gmail.com & 520-271-1293 &  & \multirow{2}{100pt}{2233 E 5th Street 85719} & \multirow{2}{70pt}{Korman-2nd}\\
- & Chris Kirkpatrick & fulvifrons@gmail.com & 520-390-4228 &  & & \\
-\hline
-\multirow{2}{70pt}{Jack Gibson} & Mary Gibson & mjwao@yahoo.com & 5202501244 & 5208827138 & \multirow{2}{100pt}{1950 E 8th Street} & \multirow{2}{70pt}{May-4th}\\
- & David Gibson &  & 5208699213 &  & & \\
-\hline
-\multirow{2}{70pt}{Axel Fraser } & Caryn Isom fraser & Cisomfraser@cox.net & 520.275.6504 &  & \multirow{2}{100pt}{3318 e Terra Alta Blvd. Tucson az 85716 } & \multirow{2}{70pt}{May-4th}\\
- & Gord Fraser  & Ghfraser@aol.com & 520.275.1221 &  & & \\
-\hline
-\multirow{2}{70pt}{Autry, Kyte} & Nicole Kyte & cricketcarmel@yahoo.com & 206-351-7006 & n/a & \multirow{2}{100pt}{2709 E 6th St} & \multirow{2}{70pt}{Swanson-Kinder}\\
- & Terry Kyte & jamiemalletjr@gmail.com & 206-323-0813 & n/a & & \\
-\hline
-\multirow{2}{70pt}{Delilah Schoonover} & Jeb Schoonover & honkytonkhacienda@yahoo.com & 520-730-7870 & 520-795-1420 & \multirow{2}{100pt}{1924 E 2nd Street 85719} & \multirow{2}{70pt}{Rumney-1st}\\
- & Dale Schoonover & dschoonover@email.arizona.edu & 520-730-7843 & 520-795-1420 & & \\
-\hline
-\multirow{2}{70pt}{Ana Furlong} & Veronica Furlong & veronicaf@email.arizona.edu & 5208226711 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{May-4th}\\
- & Matthew Furlong & furlong1@email.arizona.edu & 5206474686 &  & & \\
-\hline
-\multirow{2}{70pt}{Julie Marrs} & Crystal Marrs & crysrae@gmail.com & 5202894886 & none & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Patterson-Kinder}\\
- & Adrian Marrs &  & same & same & & \\
-\hline
-\multirow{2}{70pt}{Henry Masursky} & Mary Day & mvd66@hotmail.com & 5202457487 & 5207701203 & \multirow{2}{100pt}{336 N TREAT AVE} & \multirow{2}{70pt}{Harris-4th}\\
- & Leo Masursky & lmasursky@cox.net & 5202725680 & 5207701203 & & \\
-\hline
-\multirow{2}{70pt}{Lilian Edgin} & Tony Edgin & tony.edgin@gmail.com & 520-333-8164 &  & \multirow{2}{100pt}{3229 E. 3rd St.} & \multirow{2}{70pt}{Korman-2nd}\\
- & Jamie Edgin & jamie.edgin@gmail.com & 520-360-9021 &  & & \\
-\hline
-\multirow{2}{70pt}{Leo Edgin} & Jamie Edgin & jamie.edgin@gmail.com & 520-360-9021 &  & \multirow{2}{100pt}{3229 E. 3rd St.} & \multirow{2}{70pt}{Kingsley-5th}\\
- & Tony Edgin & tony.edgin@gmail.com & 5203338164 &  & & \\
-\hline
-\multirow{2}{70pt}{Zenara Dattola} & Brooke Raidmae & littlemountainstream@gmail.com & 808-214-7144 &  & \multirow{2}{100pt}{5190 Woodspring Dr} & \multirow{2}{70pt}{Harris-4th}\\
- & Michael Dattola & dattoladrum@gmail.com & 8082148771 &  & & \\
-\hline
-\multirow{2}{70pt}{Owen Worthington} & Megan Studer & meganstuder@yahoo.com & 5209910081 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Rodarte-2nd}\\
- & Evan Worthington & evanworthington@outlook.com & 5203902756 &  & & \\
-\hline
-\multirow{2}{70pt}{Kendal Cady} & Angela Obregon-Cady & angobie@hotmail.com & 520-784-1815 &  & \multirow{2}{100pt}{3031 W. Saint Tropaz Ave, Tucson, AZ 85713} & \multirow{2}{70pt}{Rumney-1st}\\
- & Benjamin Cady & bncad@hotmail.com & 520-784-1814 &  & & \\
-\hline
-\multirow{2}{70pt}{Camryn Cady} & Angela Obregon-Cady & angobie@hotmail.com & 520-784-1815 &  & \multirow{2}{100pt}{3031 W. Saint Tropaz Ave} & \multirow{2}{70pt}{Harris-4th}\\
- & Benjamin Cady & bncad@hotmail.com & 520-784-1814 &  & & \\
-\hline
-\multirow{2}{70pt}{Daniel Martin} & Jennifer Martin & jswift@email.arizona.edu &  & 520-323-1818 & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Rodarte-2nd}\\
- & Jim Martin & dj8martin@yahoo.com &  & 520-323-1818 & & \\
-\hline
-\multirow{2}{70pt}{Heidi shin} & Jae shin & shinje@hotmail.com & 202-210-8573 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Gariepy-Kinder}\\
- & Megan shin & lovingcello@gmail.com & 571-212-2553 &  & & \\
-\hline
-\multirow{2}{70pt}{Claudia Shin} & Jae shin & shinje@hotmail.com & 202-210-8573 &  & \multirow{2}{100pt}{2929 E. 6th Street APT.114} & \multirow{2}{70pt}{Rodarte-2nd}\\
- & Megan shin & lovingcello@gmail.com & 571-212-2553 &  & & \\
-\hline
-\multirow{2}{70pt}{Theodore Shin} & Jae shin & shinje@hotmail.com & 202-210-8573 &  & \multirow{2}{100pt}{2929 E. 6th Street APT.114} & \multirow{2}{70pt}{Ford-4th}\\
- & Megan shin & lovingcello@gmail.com & 571-212-2553 &  & & \\
-\hline
-\multirow{2}{70pt}{Rio Gomez Khmara} & Danyelle Khmara & danyellekhmara@gmail.com & (818) 512-1389 &  & \multirow{2}{100pt}{1008 N Queen Ave.} & \multirow{2}{70pt}{Grogan-5th}\\
- & Laura McAndrews Gomez &  & (520) 401-1225 &  & & \\
-\hline
-\multirow{2}{70pt}{Jacob \& Kaela Herman} & Cheryl Grey & cheryl.grey520@gmail.com & 520 490-8235 &  & \multirow{2}{100pt}{3614 E Calle Del Prado} & \multirow{2}{70pt}{Rumney-1st}\\
- & George Herman & george@hermancontracting.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Zane, Cwik} & Cami, Cwik & crcwik@me.com & 349-9832 & 207-3977 & \multirow{2}{100pt}{PO Box 43653} & \multirow{2}{70pt}{Kingsley-5th}\\
- & John, Cwik  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Scarlett Reed} & Hope Reed & hopehreed@gmail.com & 978-500-2627 & 520-622-1301 & \multirow{2}{100pt}{479 South Convent Avenue Tucson AZ  85701} & \multirow{2}{70pt}{Grogan-5th}\\
- & Craig Reed & craig@tracmedia.com & 617-429-2678 & 520-622-1301 & & \\
-\hline
-\multirow{2}{70pt}{Sophie Ward} & Holly Relles & Hollyrelles@live.com & 520-561-0569 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Rodarte-2nd}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Stella Valerdi} & Briana Valerdi & Briana@valerdi.com & 619-508-0517 &  & \multirow{2}{100pt}{55 E Calle Belleza, Tucson, AZ 85716} & \multirow{2}{70pt}{Patterson-Kinder}\\
- & Ricardo Valerdi & Rvalerdi@valerdi.edu & 213-440-4378 &  & & \\
-\hline
-\multirow{2}{70pt}{Lucca Valerdi} & Briana Valerdi & Briana@valerdi.com & 619-508-0517 &  & \multirow{2}{100pt}{55 E Calle Belleza, Tucson, AZ 85716} & \multirow{2}{70pt}{Rodarte-2nd}\\
- & Ricardo Valerdi & Rvalerdi@Arizona.edu & 213-440-4378 &  & & \\
-\hline
-\multirow{2}{70pt}{Rocco Valerdi } & Briana Valerdi & Briana@valerdi.com & 619-508-0517 &  & \multirow{2}{100pt}{55 E Calle Belleza, Tucson AZ 85719} & \multirow{2}{70pt}{Ford-4th}\\
- & Ricardo Valerdi & Rvalerdi@arizona.edu & 213-440-4378 &  & & \\
-\hline
-\multirow{2}{70pt}{Claire Wertenberger} & Sara Gascho & sgmusic100@gmail.com &  &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Joshua Wertenberger & wertenberger@gmail.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Michael Brown} & Amanda Celaya-Brown & amanda\_celaya@hotmail.com & 5054400997 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Rumney-1st}\\
- & Michael Brown &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Antonio Sabelli} & Paolo Sabelli & psabelli1@gmail.com &  & 520-795-3649 & \multirow{2}{100pt}{2629 N. Plumer Ave.} & \multirow{2}{70pt}{Korman-2nd}\\
- & Ana Maria Lopez & anlo\_70@yahoo.com & 520-332-0976 & 520-795-3649 & & \\
-\hline
-\multirow{2}{70pt}{Evangeline Apostol} & John Apostol & apostoljp@yahoo.com & 2067907621 &  & \multirow{2}{100pt}{2109 E 5th St. Tucson, AZ 85719} & \multirow{2}{70pt}{Korman-2nd}\\
- & Denise Connors & Denise.connors@comcast.net & 2063540211 &  & & \\
-\hline
-\multirow{2}{70pt}{Alba Sabelli} & Paolo Sabelli & psabelli1@gmail.com &  & 520-795-3649 & \multirow{2}{100pt}{2629 N. Plumer Ave.} & \multirow{2}{70pt}{Kingsley-5th}\\
- & Ana Maria Lopez & anlo\_70@yahoo.com & 520-332-0976 & 520-795-3649 & & \\
-\hline
-\multirow{2}{70pt}{Tulla Pope} & Erika O'Dowd & eaodowd@hotmail.com & 520-370-8899 &  & \multirow{2}{100pt}{2312 E. 2nd Street} & \multirow{2}{70pt}{Ford-4th}\\
- & Josh Pope & jtp.tucson@gmail.com & 520-370-8897 &  & & \\
-\hline
-\multirow{2}{70pt}{Elliot Pedroza} & Francisco Pedroza & pedroza@email.arizona.edu & 520-370-4193 &  & \multirow{2}{100pt}{854 S. Deer Meadow Loop} & \multirow{2}{70pt}{Swanson-Kinder}\\
- & Lizeth Mora & mmora@email.arizona.edu & 520-256-4229 &  & & \\
-\hline
-\multirow{2}{70pt}{Roman Weber} & Angelica Weber & martinezangelica@hotmail.com & 520-237-3449 & 520-326-2739 & \multirow{2}{100pt}{2725 E. 9th St.} & \multirow{2}{70pt}{Korman-2nd}\\
- & Scott Weber & scotweber@aol.com &  & 520-326-2739 & & \\
-\hline
-\multirow{2}{70pt}{Fox Santos} & Darren Santos & Dsantos2x3@gmail.com & 5205481883 &  & \multirow{2}{100pt}{4745 e Adams} & \multirow{2}{70pt}{Gariepy-Kinder}\\
- & Amanda Brandibur & Abrandibur@yahoo.com & 5207890961 &  & & \\
-\hline
-\multirow{2}{70pt}{Yael Esquer} & Dago Esquer & tolomaso@yahoo.com &  &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Korman-2nd}\\
- & Marcela Esquer & marcelaesquer@yahoo.com & 520-979-2703 &  & & \\
-\hline
-\multirow{2}{70pt}{Emily Calle} & Kim Calle & Kacalle@mac.com & 5205483100 & 5203005196 & \multirow{2}{100pt}{2315 E Hawthorne} & \multirow{2}{70pt}{Korman-2nd}\\
- & Jim Calle & Jimcalle@mac.com & 5202750199 & 5203005196 & & \\
-\hline
-\multirow{2}{70pt}{Adrian Peralta} & Francine Martinez & frmartinez.az@gmail.com & 5209544601 & 5203054955 & \multirow{2}{100pt}{2726 E 6th St} & \multirow{2}{70pt}{May-4th}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Kaleesha Dihang} & Nika Dihang & nmurphy2027@hotmail.com & 520-279-9358 &  & \multirow{2}{100pt}{2131 E.10th Street Tucson,Az 85719} & \multirow{2}{70pt}{Rumney-1st}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Orion Abrell} & Leif Abrell & lagartica@hotmail.com & 5204887475 &  & \multirow{2}{100pt}{3136 E Waverly St., Tucson, AZ 85716} & \multirow{2}{70pt}{Kingsley-5th}\\
- & Athena Ganchorre & athenaganchorre@gmail.com & 5203299566 &  & & \\
-\hline
-\multirow{2}{70pt}{Samantha Howard } & Lorena Romero  & Lorenaromero99@yahoo.com  & 520-406-0301 &  & \multirow{2}{100pt}{8526 e 19th st} & \multirow{2}{70pt}{Kingsley-5th}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Arjuna Bright} & Krishna Bright & krishnasbodypainting@gmail.com & 520-561-0750 &  & \multirow{2}{100pt}{5819 E. Hawthorne Street} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & David Campbell & fancyloveday@gmail.com & 520-850-1223 &  & & \\
-\hline
-\multirow{2}{70pt}{Sophia Lopez} & Felisha Lopez & felishag@email.arizona.edu &  &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Rumney-1st}\\
- & Gabriel Lopez &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Alyssa Parra} & Lydia Parra & gaaaparra@gmail.com & 5204052314 & 5204052314 & \multirow{2}{100pt}{3217 w utah st} & \multirow{2}{70pt}{Astrene-3rd}\\
- & George Parra & gaaaparra@gmail.com & 5203902306 & 5204052314 & & \\
-\hline
-\multirow{2}{70pt}{Aliana Parra} & Lydia Parra & gaaaparra@gmail.com & 5204052314 & 5204052314 & \multirow{2}{100pt}{3217 w utah st} & \multirow{2}{70pt}{Swanson-Kinder}\\
- & George Parra & gaaaparra@gmail.com & 5203902306 & 5204052314 & & \\
-\hline
-\multirow{2}{70pt}{Alexis Parra} & Lydia Parra & gaaaparra@gmail.com & 5204052314 & 5204052314 & \multirow{2}{100pt}{3217 w utah st} & \multirow{2}{70pt}{Barry-5th}\\
- & George Parra & gaaaparra@gmail.com & 5203902306 & 5204052314 & & \\
-\hline
-\multirow{2}{70pt}{Drew Nelson} & Karen Nelson & Nerak\_tb@hotmail.com & 520-603-1573 &  & \multirow{2}{100pt}{2108 E 3rd st Tucson, AZ 85719} & \multirow{2}{70pt}{Korman-2nd}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Aliyah Charles} & Emily Charles  & Munoze04@yahoo.com & 915-244-9876 &  & \multirow{2}{100pt}{3404 E. Edgemont st. Tucson, AZ 85716} & \multirow{2}{70pt}{Patterson-Kinder}\\
- & Adalberto Charles & Aj\_abyssm13@yahoo.com & 915-203-3849 &  & & \\
-\hline
-\multirow{2}{70pt}{Miyah Charles} & Emily Charles & Munoze04@yahoo.com & 915-244-9876 &  & \multirow{2}{100pt}{3404 E. Edgemont st.} & \multirow{2}{70pt}{Rumney-1st}\\
- & Adalberto Charles & Aj\_abyssm13@yahoo.com & 915-203-3849 &  & & \\
-\hline
-\multirow{2}{70pt}{Maxim Rutkowski } & Lesleigh Rutkowski  & Lesleigh.rutkowski@hotmail.com & 520-471-6277 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Korman-2nd}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Allison Rutkowski } & Lesleigh Rutkowski  & Lesleigh.rutkowski@hotmail.com & 520-471-6277 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Grogan-5th}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Minerva Predick-Sutton} & Katie Predick & kipredick@gmail.com & 5204372000 &  & \multirow{2}{100pt}{2905 E 8th St} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Tal Sutton & tal.sutton@gmail.com & 5204372007 &  & & \\
-\hline
-\multirow{2}{70pt}{Luna Cortez-Shenk} & Sabrina Cortez & sabrina.cortez82@live.com & 5203318521 &  & \multirow{2}{100pt}{255 N Granada Ave Apt 13210 Tucson, AZ 85701} & \multirow{2}{70pt}{Rumney-1st}\\
- & Fabian Shenk & fshenk01@gmail.com & 5202706271 &  & & \\
-\hline
-\multirow{2}{70pt}{Amelia Christensen Roco} & Eric Christensen & eric.j.christensen@gmail.com & 5202478890 &  & \multirow{2}{100pt}{421 N. Court Ave. Tucson, AZ 85701} & \multirow{2}{70pt}{Swanson-Kinder}\\
- & Ximena Roco & ximeroco@hotmail.com & 5208487024 &  & & \\
-\hline
-\multirow{2}{70pt}{Langston Smith} & Mark Smith & mark@cerica.net &  & 520-622-1297 & \multirow{2}{100pt}{1224 N Norton Ave 85719} & \multirow{2}{70pt}{Korman-2nd}\\
- & Shelley Hawthorne Smith & shellhawthorne@yahoo.com &  & 520-622-1297 & & \\
-\hline
-\multirow{2}{70pt}{Hewitt, Meier} & Katie, Patt & kathrynpatt@gmail.com & 413-687-3085 &  & \multirow{2}{100pt}{323 N. Sawtelle Ave} & \multirow{2}{70pt}{Rodarte-2nd}\\
- & Tyler, Meier & tyler.jacob.meier@gmail.com & 206-300-7238 &  & & \\
-\hline
-\multirow{2}{70pt}{Julian Saletan Hall} & Jordana Saletan & Jordanasaletan@gmail.com & 520-270-4262 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Robert Hall &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Maya Renzetti } & Michelle  & Mrenzetti@hmail.com & 520-401-1919 &  & \multirow{2}{100pt}{2906 E 2nd St} & \multirow{2}{70pt}{Grogan-5th}\\
- & Michelle Renzetti & mrenzetti8@gmail.com & 5204011919 & 5204011919 & & \\
-\hline
-\multirow{2}{70pt}{Nate Parrish} & Jeff Parrish & dezertdwlr@gmail.com & (520)977-0223 &  & \multirow{2}{100pt}{3413 E Edgemont St. 85716} & \multirow{2}{70pt}{Astrene-3rd}\\
- & Greer Parrish & greernofear@yahoo.com & (520)661-5116 &  & & \\
-\hline
-\multirow{2}{70pt}{Kellyn Coney} & Lisa Hacker Coney & lhconey@gmail.com & 5209717080 &  & \multirow{2}{100pt}{4205 E Whittier St} & \multirow{2}{70pt}{Barry-5th}\\
- & Michel Coney &  & 5209717439 &  & & \\
-\hline
-\multirow{2}{70pt}{Ariadne Wolgemuth} & Justine Wolgemuth & wolgemuth.5@gmail.com & 860-978-6186 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Korman-2nd}\\
- & Charles Wolgemuth & wolg@physics.arizona.edu & 860-967-4343 &  & & \\
-\hline
-\multirow{2}{70pt}{Noah Wolgemuth} & Justine Wolgemuth & wolgemuth.5@gmail.com & 860-978-6186 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Kingsley-5th}\\
- & Charles Wolgemuth & wolg@physics.arizona.edu & 860-967-4343 &  & & \\
-\hline
-\multirow{2}{70pt}{Ewan Wolgemuth} & Justine Wolgemuth & wolgemuth.5@gmail.com & 860-978-6186 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Kingsley-5th}\\
- & Charles Wolgemuth & wolg@physics.arizona.edu & 860-967-4343 &  & & \\
-\hline
-\multirow{2}{70pt}{Nadyezhda (Nadya), Snider-Simon} & Nastia, Snider-Simon & ssnidersimon@gmail.com & 520-549-7004 & 520-320-5443 & \multirow{2}{100pt}{817 S. 10th Ave., Tucson, AZ 85701} & \multirow{2}{70pt}{Rumney-1st}\\
- & Brian, Snider-Simon & vladruminski@hotmail.com & 520-235-9927 & 520-320-5443 & & \\
-\hline
-\multirow{2}{70pt}{Nikolai, Snider-Simon} & Nastia, Snider-Simon & ssnidersimon@gmail.com & 520-549-7004 & 520-320-5443 & \multirow{2}{100pt}{817 S. 10th Ave., Tucson, AZ 85701} & \multirow{2}{70pt}{Wong-3rd}\\
- & Brian, Snider-Simon & vladruminski@hotmail.com & 520-235-9927 & 520-320-5443 & & \\
-\hline
-\multirow{2}{70pt}{Stella wagner} & Eric wagner & Wagdog@gmx.com & 520-300-1371 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Bianca Montano} & Lesley Montano & Lmmontano1@gmail.com & 520-237-7332 & 520-850-3623 & \multirow{2}{100pt}{2428 E 5th Street} & \multirow{2}{70pt}{Harris-4th}\\
- & Jason Montano & Jam4141@gmail.com & 520-850-3623 & 520-237-7332 & & \\
-\hline
-\multirow{2}{70pt}{Valentina Givens} & Raquel Givens & raqhergiv@gmail.com & 5206038017 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Korman-2nd}\\
- & Jamal Givens & jvictory5@gmail.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Simon Clark} & Lori Kindler & lkindler@gmail.com & 520-239-6663 &  & \multirow{2}{100pt}{3453 E Bunell St} & \multirow{2}{70pt}{Astrene-3rd}\\
- & Ken Youens-Clark & kyclark@gmail.com & 520-328-4516 &  & & \\
-\hline
-\multirow{2}{70pt}{Tabitha Clark} & Lori Kindler & lkindler@gmail.com & 520-239-6663 &  & \multirow{2}{100pt}{3453 E Bunell St} & \multirow{2}{70pt}{Grogan-5th}\\
- & Ken Youens-Clark & kyclark@gmail.com & 520-328-4516 &  & & \\
-\hline
-\multirow{2}{70pt}{Shannon, Staples} & Matthew, Staples & mateo57crc@gmail.com & 520-906-3689 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Astrene-3rd}\\
- & Jessica, Summers & jsummers@email.arizona.edu & 520-906-3657 &  & & \\
-\hline
-\multirow{2}{70pt}{Quincy Kirsten} & Wolf Kirsten & wk@wolfkirsten.com & 5202418142 &  & \multirow{2}{100pt}{3232 e hawthorne street tucson AZ 85716} & \multirow{2}{70pt}{Grogan-5th}\\
- & Holly Fletcher  & hollyf@habitattucson.org & 5201418837 &  & & \\
-\hline
-\multirow{2}{70pt}{Dominic Bell} & Dawn Bell & rdkbell@hotmail.com & 520-403-2862 & 520-325-1193 & \multirow{2}{100pt}{2244 E 5th St} & \multirow{2}{70pt}{Astrene-3rd}\\
- & Rick Bell & rdkbell@hotmail.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Jack Feeney-MuÃ±oz} & Mary Feeney & mfeeney@email.arizona.edu & 5202691874 &  & \multirow{2}{100pt}{1339 E. Water St.} & \multirow{2}{70pt}{Ford-4th}\\
- & John MuÃ±oz & John.Munoz@pima.gov &  &  & & \\
-\hline
-\multirow{2}{70pt}{Angelo Campbell } & Peggy Campbell  & Peggyshan@cox.net & 520-247-6258 &  & \multirow{2}{100pt}{1910 S Plumer Ave Tucson AZ 85713} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Shandria Campbell  &  & 520-358-4126 &  & & \\
-\hline
-\multirow{2}{70pt}{Zamaya Campbell } & Peggy Campbell  & Peggyshan@cox.net & 520-247-6258 &  & \multirow{2}{100pt}{1910 S Plumer Ave Tucson AZ 85713} & \multirow{2}{70pt}{Korman-2nd}\\
- & Shandria Campbell  &  & 520-359-4126 &  & & \\
-\hline
-\multirow{2}{70pt}{Roberto Campbell } & Peggy campbell & Peggyshan@cox.net & 520-247-6258 &  & \multirow{2}{100pt}{1910 S Plumer Ave Tucson AZ 85714} & \multirow{2}{70pt}{Astrene-3rd}\\
- & Shandria Campbell  &  & 520-358-4126 &  & & \\
-\hline
-\multirow{2}{70pt}{Madeline Foth} & Michelle Foth & mkfoth@gmail.com & 520-971-7212 & 520-795-3190 & \multirow{2}{100pt}{5318 E 7th St} & \multirow{2}{70pt}{Wong-3rd}\\
- & Robert Foth & rfoth@cox.net & 520-250-9474 & 520-795-3190 & & \\
-\hline
-\multirow{2}{70pt}{Sienna} & Whittier & eleonorademaria@yahoo.com & 5208203251 &  & \multirow{2}{100pt}{2637 N Plumer Ave, Tucson AZ 85719} & \multirow{2}{70pt}{Korman-2nd}\\
- & Eleonora Demaria &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Zoe} & Groseclose & desiree.groseclose@gmail.com & 520-401-7239 &  & \multirow{2}{100pt}{2841 E. Geneva Place Tucson, AZ 85716} & \multirow{2}{70pt}{Patterson-Kinder}\\
- & Mike Groseclose & mike.groseclose@gmail.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Jolena L Andersen} & Carolyn Andersen & candersen1@cox.net & 520-906-2014 &  & \multirow{2}{100pt}{2343 E Hawthorne St} & \multirow{2}{70pt}{Korman-2nd}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Leo Ravia} & Daniel Ravia & fuddxx@gmail.com & 520-234-1458 & 520-321-1042 & \multirow{2}{100pt}{2752 N. Edith Blvd. (16)} & \multirow{2}{70pt}{May-4th}\\
- & Jennifer Ravia & jravia@email.arizona.edu & 520-971-2879 & 520-321-1042 & & \\
-\hline
-\multirow{2}{70pt}{Wexler Mackey} & Bill Mackey & bill@workerincorporated.com & 520-664-4847 &  & \multirow{2}{100pt}{825 North Norton Avenue Tucson Arizona 85719} & \multirow{2}{70pt}{Ford-4th}\\
- & Rachel Yaseen & theorganickitchen@yahoo.com & 520-658-9808 &  & & \\
-\hline
-\multirow{2}{70pt}{Hayes Rainie} & Stephanie Carroll Rainie & scbegonias@gmail.com & 520.271.7377 &  & \multirow{2}{100pt}{2516 E 4th ST} & \multirow{2}{70pt}{May-4th}\\
- & David Rainie & davidrainie@gmail.com & 520.789.1272 &  & & \\
-\hline
-\multirow{2}{70pt}{Maxwell Phillips} & Kim Cota-Robles & kayseeseeare@gmail.com & 520.247.4886 & N/A & \multirow{2}{100pt}{3214 E Hawthorne St} & \multirow{2}{70pt}{Rodarte-2nd}\\
- & William Phillips & wbphili@gmail.com & 520.237.8915 & N/A & & \\
-\hline
-\multirow{2}{70pt}{Riley, Snyder} & Leslie, Snyder & leslieasnyder79@gmail.com & 520-312-8963 &  & \multirow{2}{100pt}{1810 E Blacklidge Dr. #606} & \multirow{2}{70pt}{Grogan-5th}\\
- & Manuel, Snyder &  & 520-488-8709 &  & & \\
-\hline
-\multirow{2}{70pt}{Michael Felde} & Olga Felde & Olga.Felde11@gmail.com & 520-360-0939 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Patterson-Kinder}\\
- & Mike Felde & voodoomike69@yahoo.com & 520-275-4772 &  & & \\
-\hline
-\multirow{2}{70pt}{Abbey Martinez} & Melissa Acuna & melissa.acuna@cox.com &  &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Ford-4th}\\
- & Robert Martinez & injectiontattoo@gmail.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Oliver Armenta} & Starlight Noel-Armenta & snoelarmenta@email.arizona.edu & (520)979-7905 &  & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Daniel Armenta  & danxaz@yahoo.com & (520)955-3317 &  & & \\
-\hline
-\multirow{2}{70pt}{Vivian Grogan } & Jennine Grogan & neenerbean@cox.net & 5204444509 & 5203201391 & \multirow{2}{100pt}{14 N. Camino Miramonte} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Andrew Grogan  & Atgrogan@gmail.com  & 5204048467 & 5203201391 & & \\
-\hline
-\multirow{2}{70pt}{Alexa Duron} & Ashley Duron & anduron2@gmail.com & 5208619090 & 5208619090 & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Harris-4th}\\
- & Cezar Duron & cezarduron@gmail.com & 5203707386 & 5203707386 & & \\
-\hline
-\multirow{2}{70pt}{Romina Castaneda} & Gabriela Urquidi & gurmdg@gmail.com & 5208787072 &  & \multirow{2}{100pt}{3111 E 4 th Street apt. 144} & \multirow{2}{70pt}{Harris-4th}\\
- & Carlos Tafich & catmd@outlook.com & 5209910856 &  & & \\
-\hline
-\multirow{2}{70pt}{Jonah Plemons} & Eric Plemons & eplemons@gmail.com & 510-529-6367 &  & \multirow{2}{100pt}{2625 E Manchester St Tucson 85716} & \multirow{2}{70pt}{Rodarte-2nd}\\
- & Anne Dougherty & anne@illumeadvising.com & 608-512-3930 &  & & \\
-\hline
-\multirow{2}{70pt}{Wally Ollman} & Jennifer Ollman & dictyodiva@yahoo.com & 5205489968 &  & \multirow{2}{100pt}{2925 E 1st St} & \multirow{2}{70pt}{Rumney-1st}\\
- & Mike Ollman & mikeollman@hotmail.com & 5204813000 &  & & \\
-\hline
-\multirow{2}{70pt}{Eva Pfister} & Bete Jones & betekaieva@gmail.com & 520-901-0419 & 520-901-0419 & \multirow{2}{100pt}{131 N. Sawtelle Ave.} & \multirow{2}{70pt}{Astrene-3rd}\\
- & Tad Pfister & tadeoindio@gmail.com & 520-901-0259 & 520-901-0259 & & \\
-\hline
-\multirow{2}{70pt}{Liam Lindeman} & Ellen Ruble & ellencruble@icloud.com & 520-548-4098 &  & \multirow{2}{100pt}{2626 E. Helen St} & \multirow{2}{70pt}{Barry-5th}\\
- & Mike Lindeman & mwlindeman@icloud.com & 520-548-4093 &  & & \\
-\hline
-\multirow{2}{70pt}{Samara Ortega} & Jessi Ortega & jesenia\_ortega@hotmail.com & 520-282-1496 &  & \multirow{2}{100pt}{5455 N. Willow Thicket Way Tucson, AZ 85704} & \multirow{2}{70pt}{Kingsley-5th}\\
- & Alfredo Ortega & ortega\_alfredo@hotmail.com &  &  & & \\
-\hline
-\multirow{2}{70pt}{Abigail Cherkis} & Brenda Frye & brendafrye@gmail.com & 4156329103 & 4155054711 & \multirow{2}{100pt}{2610 E 9th St} & \multirow{2}{70pt}{Kingsley-5th}\\
- & Sergey Cherkis & cherkis@gmail.com & 4158101881 & 5205054711 & & \\
-\hline
-\multirow{2}{70pt}{Eleanor, Cherkis} & Brenda, Frye & brendafrye@gmail.com & 4156329103 & 5205954711 & \multirow{2}{100pt}{2610 E 9th St} & \multirow{2}{70pt}{Korman-2nd}\\
- & Sergey Cherkis & cherkis@gmail.com & 4158101881 & 5205054711 & & \\
-\hline
-\multirow{2}{70pt}{Audra, Feaster} & Jenny, Graber & jensueg@yahoo.com & 490-7630 & 206-0500 & \multirow{2}{100pt}{2609 E 7th St} & \multirow{2}{70pt}{Korman-2nd}\\
- & Clark, Feaster &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Lindy, Feaster} & Jenny, Graber & jensueg@yahoo.com & 520-490-7630 & 520-206-0500 & \multirow{2}{100pt}{2609 E 7th St} & \multirow{2}{70pt}{Ford-4th}\\
- & Clark, Feaster &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Trixie Delmastro } & Amy Adams & Amylemonsuki@yahoo.com & 520-907-8656 & 520-326-9757 & \multirow{2}{100pt}{} & \multirow{2}{70pt}{Wong-3rd}\\
- &  &  &  &  & & \\
-\hline
-\multirow{2}{70pt}{Alec Cohen} & Noah Cohen & noah@cohencreative.com & 5206617811 &  & \multirow{2}{100pt}{328 N. Country Club Rd.} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Havah Haskell & dochav@gmail.com & 5202507329 &  & & \\
-\hline
-\multirow{2}{70pt}{Eleanor Lipscomb} & Meredith Lipscomb & Salvador89@cox.net & 520-444-9757 & 520-323-5065 & \multirow{2}{100pt}{4332 E 7th Street} & \multirow{2}{70pt}{Ford-4th}\\
- & Robert Lipscomb &  & 520-603-1906 & 520-323-5065 & & \\
-\hline
-\multirow{2}{70pt}{Vivian Castaneda} & Tina Castaneda & tmh82179@gmail.com & 520-991-7816 &  & \multirow{2}{100pt}{2338 W. Horseshoe pl. Tucson, AZ 85745} & \multirow{2}{70pt}{Dunscomb-1st}\\
- & Daniel Castaneda & dcastanedarx@gmail.com & 520-237-4341 &  & & \\
-\hline
-\multirow{2}{70pt}{Sophia Castaneda} & Tina Castaneda & tmh82179@gmail.com & 520-991-7816 &  & \multirow{2}{100pt}{2338 W. Horseshoe pl.Tucson, Az 85745} & \multirow{2}{70pt}{May-4th}\\
- & Daniel Castaneda & dcastanedarx@gmail.com & 520-237-4341 &  & & \\
-\hline
+%Separate out by grade and teacher then print a section and table for each
 
+\section{Kinder}
+\subsection{Patterson}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Harper,Grenke} & Anna, Waterbrook & waterbro1@yahoo.com & 520-403-3861 &  & \multirow{2}{100pt}{2826 E 10th St. Tucson, 85716} \\
+ & Alan,Grenke & Howie101@hotmail.com & 520-343-4436 &  & \\
+\hline
+\multirow{2}{70pt}{Yicheng Wang} & Yong Wang & ywang78@email.arizona.edu & 520-247-7927 &  & \multirow{2}{100pt}{3111 E 4TH ST APT 122} \\
+ & Yuting Xie & 4140802872@qq.com & +86-13259865668 &  & \\
+\hline
+\multirow{2}{70pt}{Aliyah Charles} & Emily Charles & Munoze04@yahoo.com & 915-244-9876 &  & \multirow{2}{100pt}{3404 E. Edgemont st. Tucson, AZ 85716} \\
+ & Adalberto Charles & Aj\_abyssm13@yahoo.com & 915-203-3849 &  & \\
+\hline
+\multirow{2}{70pt}{Jose A. Castro} & Jose Castro & Cjose689@gmail.com & 5202725588 & 5202725588 & \multirow{2}{100pt}{4941 N Sunrise Ave Tucson, AZ 85705} \\
+ & Maria Campoy & mcampoy7@ymail.com & 5202271028 & 5202271028 & \\
+\hline
+\multirow{2}{70pt}{Michael Felde} & Olga Felde & Olga.Felde11@gmail.com & 520-360-0939 &  & \multirow{2}{100pt}{2331 S Aztec point Trail} \\
+ & Mike Felde & Voodoomike69@yahoo.com & 5202754772 &  & \\
+\hline
+\multirow{2}{70pt}{Maximiliano Celaya-Priefert} & Janette Priefert & janettecp@gmail.com & 602-502-6561 &  & \multirow{2}{100pt}{} \\
+ & Sean Priefert &  & 480-251-2625 &  & \\
+\hline
+\multirow{2}{70pt}{Dylan Pollard} & Marnie Pollard & marmpoll3@gmail.com & 520-349-6941 &  & \multirow{2}{100pt}{1821 N Tucson Blvd Tucson, AZ 85716} \\
+ & John Pollard &  & 349-7154 &  & \\
+\hline
+\multirow{2}{70pt}{Julie Marrs} & Crystal Marrs & crysrae@gmail.com & 5202894886 & none & \multirow{2}{100pt}{} \\
+ & Adrian Marrs &  & same & same & \\
+\hline
+\multirow{2}{70pt}{Stella Valerdi} & Briana Valerdi & Briana@valerdi.com & 619-508-0517 &  & \multirow{2}{100pt}{55 E Calle Belleza, Tucson, AZ 85716} \\
+ & Ricardo Valerdi & Rvalerdi@valerdi.edu & 213-440-4378 &  & \\
+\hline
+\multirow{2}{70pt}{Aliyah Charles} & Emily Charles  & Munoze04@yahoo.com & 915-244-9876 &  & \multirow{2}{100pt}{3404 E. Edgemont st. Tucson, AZ 85716} \\
+ & Adalberto Charles & Aj\_abyssm13@yahoo.com & 915-203-3849 &  & \\
+\hline
+\multirow{2}{70pt}{Zoe} & Groseclose & desiree.groseclose@gmail.com & 520-401-7239 &  & \multirow{2}{100pt}{2841 E. Geneva Place Tucson, AZ 85716} \\
+ & Mike Groseclose & mike.groseclose@gmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Michael Felde} & Olga Felde & Olga.Felde11@gmail.com & 520-360-0939 &  & \multirow{2}{100pt}{} \\
+ & Mike Felde & voodoomike69@yahoo.com & 520-275-4772 &  & \\
 \hline
 \end{longtable}
+\newpage
+\subsection{Gariepy}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Ren Tomizuka} & David Tomizuka & david@tomizuka.com & 4156379295 &  & \multirow{2}{100pt}{725 N Stewart Ave, Tucson, AZ 85716} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Alessandra Morales } & Cesar Morales  & cmorales32@gmail.com & 520-955-0011 &  & \multirow{2}{100pt}{1411 S Perlman Ave, Tucson AZ 85710} \\
+ & Grace Morales & gracemorales02@gmail.com & 520-869-2700 &  & \\
+\hline
+\multirow{2}{70pt}{Lola Ustariz} & Diana Kanon & dianakanon@hotmail.com & 520-271-7537 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Shane Korhonen} & Tyson Korhonen & tyson.korhonen@gmail.com & 5204903934 &  & \multirow{2}{100pt}{2049 E. 6th St. #2} \\
+ & Ada Korhonen & adakkorhonen@gmail.com & 5204064945 &  & \\
+\hline
+\multirow{2}{70pt}{Ella Holewinski} & Emily Holewinski & Azswimcat@gmail.com & 520-991-8467 &  & \multirow{2}{100pt}{2048 E. 9th Street} \\
+ & William Holewinski & Will.holewinski@gmail.com & 520-975-1982 &  & \\
+\hline
+\multirow{2}{70pt}{Gianna Briante Matuk} & Farid Matuk & matuk@email.arizona.edu &  &  & \multirow{2}{100pt}{} \\
+ & Susan Briante & scbriante@yahoo.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Heidi shin} & Jae shin & shinje@hotmail.com & 202-210-8573 &  & \multirow{2}{100pt}{} \\
+ & Megan shin & lovingcello@gmail.com & 571-212-2553 &  & \\
+\hline
+\multirow{2}{70pt}{Fox Santos} & Darren Santos & Dsantos2x3@gmail.com & 5205481883 &  & \multirow{2}{100pt}{4745 e Adams} \\
+ & Amanda Brandibur & Abrandibur@yahoo.com & 5207890961 &  & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{Swanson}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{JULIAN GARCIA} & ASHLEY MARTINEZ & ASHLEY.MARTINEZ09@GMAIL.COM & 5204492648 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Autry, Kyte} & Nicole Kyte & cricketcarmel@yahoo.com & 206-351-7006 & n/a & \multirow{2}{100pt}{2709 E 6th St} \\
+ & Terry Kyte & jamiemalletjr@gmail.com & 206-323-0813 & n/a & \\
+\hline
+\multirow{2}{70pt}{Elliot Pedroza} & Francisco Pedroza & pedroza@email.arizona.edu & 520-370-4193 &  & \multirow{2}{100pt}{854 S. Deer Meadow Loop} \\
+ & Lizeth Mora & mmora@email.arizona.edu & 520-256-4229 &  & \\
+\hline
+\multirow{2}{70pt}{Aliana Parra} & Lydia Parra & gaaaparra@gmail.com & 5204052314 & 5204052314 & \multirow{2}{100pt}{3217 w utah st} \\
+ & George Parra & gaaaparra@gmail.com & 5203902306 & 5204052314 & \\
+\hline
+\multirow{2}{70pt}{Amelia Christensen Roco} & Eric Christensen & eric.j.christensen@gmail.com & 5202478890 &  & \multirow{2}{100pt}{421 N. Court Ave. Tucson, AZ 85701} \\
+ & Ximena Roco & ximeroco@hotmail.com & 5208487024 &  & \\
+\hline
+\end{longtable}
+\newpage
+\section{1st}
+\subsection{Rumney}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Miyah Charles} & Emily Charles & Munoze04@yahoo.com & 915-244-9876 &  & \multirow{2}{100pt}{3404 E. Edgemont st. Tucson, AZ 85716} \\
+ & Adalberto Charles & Aj\_abyssm13@yahoo.com & 915-203-3849 &  & \\
+\hline
+\multirow{2}{70pt}{Luna-Brook Cortez-Shenk} & Fabian Shenk & fshenk01@gmail.com & 520-270-6271 & 520-270-6271 & \multirow{2}{100pt}{255 N Granada Ave} \\
+ & Sabrina Cortez & sabrina.cortez82@live.com & 520-331-8521 & 520-331-8521 & \\
+\hline
+\multirow{2}{70pt}{Kai Nelson} & Sun No & sunnyno@gmail.com & 217-766-7592 &  & \multirow{2}{100pt}{} \\
+ & Paul Nelson &  & 217-714-4232 &  & \\
+\hline
+\multirow{2}{70pt}{Lily Newell} & Wieke de Boer & wiekedeboer@gmail.com & 520-204-7194 &  & \multirow{2}{100pt}{3156 E. Terra Alta Blvd, Tucson AZ 85716} \\
+ & Karl Newell & karlnewell@gmail.com & 520-390-7941 &  & \\
+\hline
+\multirow{2}{70pt}{Delilah Schoonover} & Jeb Schoonover & honkytonkhacienda@yahoo.com & 520-730-7870 & 520-795-1420 & \multirow{2}{100pt}{1924 E 2nd Street 85719} \\
+ & Dale Schoonover & dschoonover@email.arizona.edu & 520-730-7843 & 520-795-1420 & \\
+\hline
+\multirow{2}{70pt}{Kendal Cady} & Angela Obregon-Cady & angobie@hotmail.com & 520-784-1815 &  & \multirow{2}{100pt}{3031 W. Saint Tropaz Ave, Tucson, AZ 85713} \\
+ & Benjamin Cady & bncad@hotmail.com & 520-784-1814 &  & \\
+\hline
+\multirow{2}{70pt}{Jacob \& Kaela Herman} & Cheryl Grey & cheryl.grey520@gmail.com & 520 490-8235 &  & \multirow{2}{100pt}{3614 E Calle Del Prado} \\
+ & George Herman & george@hermancontracting.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Michael Brown} & Amanda Celaya-Brown & amanda\_celaya@hotmail.com & 5054400997 &  & \multirow{2}{100pt}{} \\
+ & Michael Brown &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Kaleesha Dihang} & Nika Dihang & nmurphy2027@hotmail.com & 520-279-9358 &  & \multirow{2}{100pt}{2131 E.10th Street Tucson,Az 85719} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Sophia Lopez} & Felisha Lopez & felishag@email.arizona.edu &  &  & \multirow{2}{100pt}{} \\
+ & Gabriel Lopez &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Miyah Charles} & Emily Charles & Munoze04@yahoo.com & 915-244-9876 &  & \multirow{2}{100pt}{3404 E. Edgemont st.} \\
+ & Adalberto Charles & Aj\_abyssm13@yahoo.com & 915-203-3849 &  & \\
+\hline
+\multirow{2}{70pt}{Luna Cortez-Shenk} & Sabrina Cortez & sabrina.cortez82@live.com & 5203318521 &  & \multirow{2}{100pt}{255 N Granada Ave Apt 13210 Tucson, AZ 85701} \\
+ & Fabian Shenk & fshenk01@gmail.com & 5202706271 &  & \\
+\hline
+\multirow{2}{70pt}{Nadyezhda (Nadya), Snider-Simon} & Nastia, Snider-Simon & ssnidersimon@gmail.com & 520-549-7004 & 520-320-5443 & \multirow{2}{100pt}{817 S. 10th Ave., Tucson, AZ 85701} \\
+ & Brian, Snider-Simon & vladruminski@hotmail.com & 520-235-9927 & 520-320-5443 & \\
+\hline
+\multirow{2}{70pt}{Wally Ollman} & Jennifer Ollman & dictyodiva@yahoo.com & 5205489968 &  & \multirow{2}{100pt}{2925 E 1st St} \\
+ & Mike Ollman & mikeollman@hotmail.com & 5204813000 &  & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{Dunscomb}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Chiara Carrasco} & Jazmin Saavedra & jazmins@email.arizona.edu & 5202080985 &  & \multirow{2}{100pt}{} \\
+ & David Carrasco & Jedavcarr@gmail.com & 5204996698 &  & \\
+\hline
+\multirow{2}{70pt}{Nola LaRochelle} & Amanda LaRochelle & allarochelles@gmail.com &  &  & \multirow{2}{100pt}{1219 N. Sawtelle Ave} \\
+ & Ned Gittings & negadona@hotmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Claire Wertenberger} & Sara Gascho & sgmusic100@gmail.com &  &  & \multirow{2}{100pt}{} \\
+ & Joshua Wertenberger & wertenberger@gmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Arjuna Bright} & Krishna Bright & krishnasbodypainting@gmail.com & 520-561-0750 &  & \multirow{2}{100pt}{5819 E. Hawthorne Street} \\
+ & David Campbell & fancyloveday@gmail.com & 520-850-1223 &  & \\
+\hline
+\multirow{2}{70pt}{Minerva Predick-Sutton} & Katie Predick & kipredick@gmail.com & 5204372000 &  & \multirow{2}{100pt}{2905 E 8th St} \\
+ & Tal Sutton & tal.sutton@gmail.com & 5204372007 &  & \\
+\hline
+\multirow{2}{70pt}{Julian Saletan Hall} & Jordana Saletan & Jordanasaletan@gmail.com & 520-270-4262 &  & \multirow{2}{100pt}{} \\
+ & Robert Hall &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Angelo Campbell } & Peggy Campbell  & Peggyshan@cox.net & 520-247-6258 &  & \multirow{2}{100pt}{1910 S Plumer Ave Tucson AZ 85713} \\
+ & Shandria Campbell  &  & 520-358-4126 &  & \\
+\hline
+\multirow{2}{70pt}{Oliver Armenta} & Starlight Noel-Armenta & snoelarmenta@email.arizona.edu & (520)979-7905 &  & \multirow{2}{100pt}{} \\
+ & Daniel Armenta  & danxaz@yahoo.com & (520)955-3317 &  & \\
+\hline
+\multirow{2}{70pt}{Vivian Grogan } & Jennine Grogan & neenerbean@cox.net & 5204444509 & 5203201391 & \multirow{2}{100pt}{14 N. Camino Miramonte} \\
+ & Andrew Grogan  & Atgrogan@gmail.com  & 5204048467 & 5203201391 & \\
+\hline
+\multirow{2}{70pt}{Alec Cohen} & Noah Cohen & noah@cohencreative.com & 5206617811 &  & \multirow{2}{100pt}{328 N. Country Club Rd.} \\
+ & Havah Haskell & dochav@gmail.com & 5202507329 &  & \\
+\hline
+\multirow{2}{70pt}{Vivian Castaneda} & Tina Castaneda & tmh82179@gmail.com & 520-991-7816 &  & \multirow{2}{100pt}{2338 W. Horseshoe pl. Tucson, AZ 85745} \\
+ & Daniel Castaneda & dcastanedarx@gmail.com & 520-237-4341 &  & \\
+\hline
+\end{longtable}
+\newpage
+\section{2nd}
+\subsection{Korman}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Jolena Andersen} & Carolyn Andersen & candersen@graylinearizona.com & 520-906-2014 & 520-326-1482 & \multirow{2}{100pt}{2343 E Hawthorne St} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Santiago Morales } & Cesar Morales & cmorales32@gmail.com & 520-955-0011 &  & \multirow{2}{100pt}{} \\
+ & Grace Morales  & Gracemorales02@gmail.com & 520-869-2700 &  & \\
+\hline
+\multirow{2}{70pt}{Langston, Smith} & Mark, Smith & mark@pacina.net & 5206221297 & 5206221297 & \multirow{2}{100pt}{1224 N Norton Ave} \\
+ & Shelley, Hawthorne-Smith & shellhawthorne@yahoo.com & 5206221297 &  & \\
+\hline
+\multirow{2}{70pt}{Grace Mcquary} & Ezra Smith & ezrasmith@email.arizona.edu & 6313190151 &  & \multirow{2}{100pt}{} \\
+ & Naomi Smith &  & 5207309192 &  & \\
+\hline
+\multirow{2}{70pt}{Graham Kirkpatrick} & Jennifer Kirkpatrick & jenniferkirkpatrick1@gmail.com & 520-271-1293 &  & \multirow{2}{100pt}{2233 E 5th Street 85719} \\
+ & Chris Kirkpatrick & fulvifrons@gmail.com & 520-390-4228 &  & \\
+\hline
+\multirow{2}{70pt}{Lilian Edgin} & Tony Edgin & tony.edgin@gmail.com & 520-333-8164 &  & \multirow{2}{100pt}{3229 E. 3rd St.} \\
+ & Jamie Edgin & jamie.edgin@gmail.com & 520-360-9021 &  & \\
+\hline
+\multirow{2}{70pt}{Antonio Sabelli} & Paolo Sabelli & psabelli1@gmail.com &  & 520-795-3649 & \multirow{2}{100pt}{2629 N. Plumer Ave.} \\
+ & Ana Maria Lopez & anlo\_70@yahoo.com & 520-332-0976 & 520-795-3649 & \\
+\hline
+\multirow{2}{70pt}{Evangeline Apostol} & John Apostol & apostoljp@yahoo.com & 2067907621 &  & \multirow{2}{100pt}{2109 E 5th St. Tucson, AZ 85719} \\
+ & Denise Connors & Denise.connors@comcast.net & 2063540211 &  & \\
+\hline
+\multirow{2}{70pt}{Roman Weber} & Angelica Weber & martinezangelica@hotmail.com & 520-237-3449 & 520-326-2739 & \multirow{2}{100pt}{2725 E. 9th St.} \\
+ & Scott Weber & scotweber@aol.com &  & 520-326-2739 & \\
+\hline
+\multirow{2}{70pt}{Yael Esquer} & Dago Esquer & tolomaso@yahoo.com &  &  & \multirow{2}{100pt}{} \\
+ & Marcela Esquer & marcelaesquer@yahoo.com & 520-979-2703 &  & \\
+\hline
+\multirow{2}{70pt}{Emily Calle} & Kim Calle & Kacalle@mac.com & 5205483100 & 5203005196 & \multirow{2}{100pt}{2315 E Hawthorne} \\
+ & Jim Calle & Jimcalle@mac.com & 5202750199 & 5203005196 & \\
+\hline
+\multirow{2}{70pt}{Drew Nelson} & Karen Nelson & Nerak\_tb@hotmail.com & 520-603-1573 &  & \multirow{2}{100pt}{2108 E 3rd st Tucson, AZ 85719} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Maxim Rutkowski } & Lesleigh Rutkowski  & Lesleigh.rutkowski@hotmail.com & 520-471-6277 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Langston Smith} & Mark Smith & mark@cerica.net &  & 520-622-1297 & \multirow{2}{100pt}{1224 N Norton Ave 85719} \\
+ & Shelley Hawthorne Smith & shellhawthorne@yahoo.com &  & 520-622-1297 & \\
+\hline
+\multirow{2}{70pt}{Ariadne Wolgemuth} & Justine Wolgemuth & wolgemuth.5@gmail.com & 860-978-6186 &  & \multirow{2}{100pt}{} \\
+ & Charles Wolgemuth & wolg@physics.arizona.edu & 860-967-4343 &  & \\
+\hline
+\multirow{2}{70pt}{Valentina Givens} & Raquel Givens & raqhergiv@gmail.com & 5206038017 &  & \multirow{2}{100pt}{} \\
+ & Jamal Givens & jvictory5@gmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Zamaya Campbell } & Peggy Campbell  & Peggyshan@cox.net & 520-247-6258 &  & \multirow{2}{100pt}{1910 S Plumer Ave Tucson AZ 85713} \\
+ & Shandria Campbell  &  & 520-359-4126 &  & \\
+\hline
+\multirow{2}{70pt}{Sienna} & Whittier & eleonorademaria@yahoo.com & 5208203251 &  & \multirow{2}{100pt}{2637 N Plumer Ave, Tucson AZ 85719} \\
+ & Eleonora Demaria &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Jolena L Andersen} & Carolyn Andersen & candersen1@cox.net & 520-906-2014 &  & \multirow{2}{100pt}{2343 E Hawthorne St} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Eleanor, Cherkis} & Brenda, Frye & brendafrye@gmail.com & 4156329103 & 5205954711 & \multirow{2}{100pt}{2610 E 9th St} \\
+ & Sergey Cherkis & cherkis@gmail.com & 4158101881 & 5205054711 & \\
+\hline
+\multirow{2}{70pt}{Audra, Feaster} & Jenny, Graber & jensueg@yahoo.com & 490-7630 & 206-0500 & \multirow{2}{100pt}{2609 E 7th St} \\
+ & Clark, Feaster &  &  &  & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{Rodarte}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Brennan Stanley} & Bruce Stanley & brucestanley25@gmail.com & 5202702902 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Alanna ingalsbe} & Dan ingalsbe & D\_ingalsbe@hotmail.com & 520-729-5585 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Maxwell Phillips} & Kim Cota-Robles & kayseeseeare@gmail.com & 520-247-4886 &  & \multirow{2}{100pt}{3214 E Hawthorne St, Tucson AZ 85716} \\
+ & Bill Phillips & wphillips@devry.edu & 520-237-8915 &  & \\
+\hline
+\multirow{2}{70pt}{Samira Shefa} & Md Iqbal Hossain & hossain@email.arizona.edu & 5207199234 &  & \multirow{2}{100pt}{3111 E 4th Street Apt 243, Tucson, AZ 85716} \\
+ & Sammi Abida Salma & sammiq@gmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Owen Worthington} & Megan Studer & meganstuder@yahoo.com & 5209910081 &  & \multirow{2}{100pt}{} \\
+ & Evan Worthington & evanworthington@outlook.com & 5203902756 &  & \\
+\hline
+\multirow{2}{70pt}{Daniel Martin} & Jennifer Martin & jswift@email.arizona.edu &  & 520-323-1818 & \multirow{2}{100pt}{} \\
+ & Jim Martin & dj8martin@yahoo.com &  & 520-323-1818 & \\
+\hline
+\multirow{2}{70pt}{Claudia Shin} & Jae shin & shinje@hotmail.com & 202-210-8573 &  & \multirow{2}{100pt}{2929 E. 6th Street APT.114} \\
+ & Megan shin & lovingcello@gmail.com & 571-212-2553 &  & \\
+\hline
+\multirow{2}{70pt}{Sophie Ward} & Holly Relles & Hollyrelles@live.com & 520-561-0569 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Lucca Valerdi} & Briana Valerdi & Briana@valerdi.com & 619-508-0517 &  & \multirow{2}{100pt}{55 E Calle Belleza, Tucson, AZ 85716} \\
+ & Ricardo Valerdi & Rvalerdi@Arizona.edu & 213-440-4378 &  & \\
+\hline
+\multirow{2}{70pt}{Hewitt, Meier} & Katie, Patt & kathrynpatt@gmail.com & 413-687-3085 &  & \multirow{2}{100pt}{323 N. Sawtelle Ave} \\
+ & Tyler, Meier & tyler.jacob.meier@gmail.com & 206-300-7238 &  & \\
+\hline
+\multirow{2}{70pt}{Maxwell Phillips} & Kim Cota-Robles & kayseeseeare@gmail.com & 520.247.4886 & N/A & \multirow{2}{100pt}{3214 E Hawthorne St} \\
+ & William Phillips & wbphili@gmail.com & 520.237.8915 & N/A & \\
+\hline
+\multirow{2}{70pt}{Jonah Plemons} & Eric Plemons & eplemons@gmail.com & 510-529-6367 &  & \multirow{2}{100pt}{2625 E Manchester St Tucson 85716} \\
+ & Anne Dougherty & anne@illumeadvising.com & 608-512-3930 &  & \\
+\hline
+\end{longtable}
+\newpage
+\section{3rd}
+\subsection{Wong}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Derek Chen} & Nan-kuei Chen & nkchen@email.arizona.edu & 9197245624 &  & \multirow{2}{100pt}{3168 East 4th St., Tucson, AZ 85716} \\
+ & Ying-hui Chou & yinghuichou@email.arizona.edu & 9197246798 &  & \\
+\hline
+\multirow{2}{70pt}{Shaoxiong Yan} & Li Zhang & zhangli20130000@163.com & 520-8488726 &  & \multirow{2}{100pt}{3033 E 6th Street Apt-A19} \\
+ & Dongkai Yan & xj\_yandongkai@sina.com & 520-2471290 &  & \\
+\hline
+\multirow{2}{70pt}{Derek Chen} & Nan-kuei Chen & nkchen@email.arizona.edu & 9197245624 & 9193424938 & \multirow{2}{100pt}{3168 East 4th street, Tucson AZ 85716} \\
+ & Ying-hui Chou & yinghuichou@email.arizona.edu & 9197245624 & 9193424938 & \\
+\hline
+\multirow{2}{70pt}{Nikolai, Snider-Simon} & Nastia, Snider-Simon & ssnidersimon@gmail.com & 520-549-7004 & 520-320-5443 & \multirow{2}{100pt}{817 S. 10th Ave., Tucson, AZ 85701} \\
+ & Brian, Snider-Simon & vladruminski@hotmail.com & 520-235-9927 & 520-320-5443 & \\
+\hline
+\multirow{2}{70pt}{Madeline Foth} & Michelle Foth & mkfoth@gmail.com & 520-971-7212 & 520-795-3190 & \multirow{2}{100pt}{5318 E 7th St} \\
+ & Robert Foth & rfoth@cox.net & 520-250-9474 & 520-795-3190 & \\
+\hline
+\multirow{2}{70pt}{Trixie Delmastro } & Amy Adams & Amylemonsuki@yahoo.com & 520-907-8656 & 520-326-9757 & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{Astrene}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Shannon Staples} & Jessica Summers & jsummers@email.arizona.edu & 520-906-3657 &  & \multirow{2}{100pt}{2407 E. 6th Street Tucson, AZ  85719} \\
+ & Matthew Staples & mateo57crc@gmail.com & 520-906-3689 &  & \\
+\hline
+\multirow{2}{70pt}{Alyssa Parra} & Lydia Parra & gaaaparra@gmail.com & 5204052314 & 5204052314 & \multirow{2}{100pt}{3217 w utah st} \\
+ & George Parra & gaaaparra@gmail.com & 5203902306 & 5204052314 & \\
+\hline
+\multirow{2}{70pt}{Nate Parrish} & Jeff Parrish & dezertdwlr@gmail.com & (520)977-0223 &  & \multirow{2}{100pt}{3413 E Edgemont St. 85716} \\
+ & Greer Parrish & greernofear@yahoo.com & (520)661-5116 &  & \\
+\hline
+\multirow{2}{70pt}{Simon Clark} & Lori Kindler & lkindler@gmail.com & 520-239-6663 &  & \multirow{2}{100pt}{3453 E Bunell St} \\
+ & Ken Youens-Clark & kyclark@gmail.com & 520-328-4516 &  & \\
+\hline
+\multirow{2}{70pt}{Shannon, Staples} & Matthew, Staples & mateo57crc@gmail.com & 520-906-3689 &  & \multirow{2}{100pt}{} \\
+ & Jessica, Summers & jsummers@email.arizona.edu & 520-906-3657 &  & \\
+\hline
+\multirow{2}{70pt}{Dominic Bell} & Dawn Bell & rdkbell@hotmail.com & 520-403-2862 & 520-325-1193 & \multirow{2}{100pt}{2244 E 5th St} \\
+ & Rick Bell & rdkbell@hotmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Roberto Campbell } & Peggy campbell & Peggyshan@cox.net & 520-247-6258 &  & \multirow{2}{100pt}{1910 S Plumer Ave Tucson AZ 85714} \\
+ & Shandria Campbell  &  & 520-358-4126 &  & \\
+\hline
+\multirow{2}{70pt}{Eva Pfister} & Bete Jones & betekaieva@gmail.com & 520-901-0419 & 520-901-0419 & \multirow{2}{100pt}{131 N. Sawtelle Ave.} \\
+ & Tad Pfister & tadeoindio@gmail.com & 520-901-0259 & 520-901-0259 & \\
+\hline
+\end{longtable}
+\newpage
+\section{4th}
+\subsection{Harris}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Lyra Tomizuka} & David Tomizuka & david@tomizuka.com & 4156379295 &  & \multirow{2}{100pt}{725 N Stewart Ave, Tucson, AZ 85716} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Nola Tomizuka} & David Tomizuka & david@tomizuka.com & 4156379295 &  & \multirow{2}{100pt}{725 N. Stewart Ave, Tucson, AZ 85716} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Julia Becker} & Audrina Becker & audrinabecker1@gmail.com & 5203068878 &  & \multirow{2}{100pt}{3348 e 3rd st, tucson, az 85716} \\
+ & Matthew Becker & Matthewjlbecker@gmail.com & 5207801084 &  & \\
+\hline
+\multirow{2}{70pt}{Romina Castaneda} & Gabriela Urquidi & gurgmd@gmail.com & 5208787072 &  & \multirow{2}{100pt}{3111 E 4 th Street apt. 144} \\
+ & Carlos Tafich & gurmd@gmail.com & 5209910856 &  & \\
+\hline
+\multirow{2}{70pt}{Sanjida Saba} & Md Iqbal Hossain & hossain@email.arizona.edu & 5207199234 &  & \multirow{2}{100pt}{3111 E 4th Street Apt 243, Tucson, AZ 85716} \\
+ & Sammi Abida Salma & sammiq@gmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Nicholas Lopez-Smith} & Debra Smith & softblkstars@cox.net & n/a & 520-624-2269 & \multirow{2}{100pt}{3033 E 6th Street, Apt E02} \\
+ & John Lopez & jhnpaul@cox.net & n/a & 520-624-2269 & \\
+\hline
+\multirow{2}{70pt}{Adam Yrigoyen} & Karen Yrigoyen  & Kd\_watson@msn.com & 5202458976 &  & \multirow{2}{100pt}{1621 E Holladay St} \\
+ & Robert Yrigoyen & Flx\_33@hotmail.com  & 5208916162 & 5202458976 & \\
+\hline
+\multirow{2}{70pt}{Henry Masursky} & Mary Day & mvd66@hotmail.com & 5202457487 & 5207701203 & \multirow{2}{100pt}{336 N TREAT AVE} \\
+ & Leo Masursky & lmasursky@cox.net & 5202725680 & 5207701203 & \\
+\hline
+\multirow{2}{70pt}{Zenara Dattola} & Brooke Raidmae & littlemountainstream@gmail.com & 808-214-7144 &  & \multirow{2}{100pt}{5190 Woodspring Dr} \\
+ & Michael Dattola & dattoladrum@gmail.com & 8082148771 &  & \\
+\hline
+\multirow{2}{70pt}{Camryn Cady} & Angela Obregon-Cady & angobie@hotmail.com & 520-784-1815 &  & \multirow{2}{100pt}{3031 W. Saint Tropaz Ave} \\
+ & Benjamin Cady & bncad@hotmail.com & 520-784-1814 &  & \\
+\hline
+\multirow{2}{70pt}{Bianca Montano} & Lesley Montano & Lmmontano1@gmail.com & 520-237-7332 & 520-850-3623 & \multirow{2}{100pt}{2428 E 5th Street} \\
+ & Jason Montano & Jam4141@gmail.com & 520-850-3623 & 520-237-7332 & \\
+\hline
+\multirow{2}{70pt}{Alexa Duron} & Ashley Duron & anduron2@gmail.com & 5208619090 & 5208619090 & \multirow{2}{100pt}{} \\
+ & Cezar Duron & cezarduron@gmail.com & 5203707386 & 5203707386 & \\
+\hline
+\multirow{2}{70pt}{Romina Castaneda} & Gabriela Urquidi & gurmdg@gmail.com & 5208787072 &  & \multirow{2}{100pt}{3111 E 4 th Street apt. 144} \\
+ & Carlos Tafich & catmd@outlook.com & 5209910856 &  & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{Ford}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Laila Ustariz} & Diana Kanon & dianakanon@hotmail.com & 520-271-7537 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Jillian Stanley} & Bruce Stanley & brucestanley25@gmail.com & 5202702902 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Joseph Sutton Magirl} & Kathy McMahon & mcmahon.kathy@gmail.com & 253-777-2252 & 520-624-8856 & \multirow{2}{100pt}{2943 E. Hawthorne St., Tucson, AZ 85716} \\
+ & Christopher Magirl & chrismagirl@gmail.com &  & 520-624-8856 & \\
+\hline
+\multirow{2}{70pt}{Nicolas Lawrence} & Felix Lawrence & flexi\_lorenzo@yahoo.com & 6026800139 & 5203735837 & \multirow{2}{100pt}{2929 E. 6th Street. Apt. 238. Tucson,AZ 85716} \\
+ & M Patricia Dorado-Lawrence & mpdh80@hotmail.com & 0115216622048675 & 5203735837 & \\
+\hline
+\multirow{2}{70pt}{Jesse Alred} & Jenifer Patterson & jmpatterson2216@gmail.com & 5202753529 &  & \multirow{2}{100pt}{2216 E. 7th St.} \\
+ & Joe Alred & joealred@msn.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Theodore Shin} & Jae shin & shinje@hotmail.com & 202-210-8573 &  & \multirow{2}{100pt}{2929 E. 6th Street APT.114} \\
+ & Megan shin & lovingcello@gmail.com & 571-212-2553 &  & \\
+\hline
+\multirow{2}{70pt}{Rocco Valerdi } & Briana Valerdi & Briana@valerdi.com & 619-508-0517 &  & \multirow{2}{100pt}{55 E Calle Belleza, Tucson AZ 85719} \\
+ & Ricardo Valerdi & Rvalerdi@arizona.edu & 213-440-4378 &  & \\
+\hline
+\multirow{2}{70pt}{Tulla Pope} & Erika O'Dowd & eaodowd@hotmail.com & 520-370-8899 &  & \multirow{2}{100pt}{2312 E. 2nd Street} \\
+ & Josh Pope & jtp.tucson@gmail.com & 520-370-8897 &  & \\
+\hline
+\multirow{2}{70pt}{Jack Feeney-MuÃ±oz} & Mary Feeney & mfeeney@email.arizona.edu & 5202691874 &  & \multirow{2}{100pt}{1339 E. Water St.} \\
+ & John MuÃ±oz & John.Munoz@pima.gov &  &  & \\
+\hline
+\multirow{2}{70pt}{Wexler Mackey} & Bill Mackey & bill@workerincorporated.com & 520-664-4847 &  & \multirow{2}{100pt}{825 North Norton Avenue Tucson Arizona 85719} \\
+ & Rachel Yaseen & theorganickitchen@yahoo.com & 520-658-9808 &  & \\
+\hline
+\multirow{2}{70pt}{Abbey Martinez} & Melissa Acuna & melissa.acuna@cox.com &  &  & \multirow{2}{100pt}{} \\
+ & Robert Martinez & injectiontattoo@gmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Lindy, Feaster} & Jenny, Graber & jensueg@yahoo.com & 520-490-7630 & 520-206-0500 & \multirow{2}{100pt}{2609 E 7th St} \\
+ & Clark, Feaster &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Eleanor Lipscomb} & Meredith Lipscomb & Salvador89@cox.net & 520-444-9757 & 520-323-5065 & \multirow{2}{100pt}{4332 E 7th Street} \\
+ & Robert Lipscomb &  & 520-603-1906 & 520-323-5065 & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{May}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{anvi sharma} & sandeep sharma & sandeep.shrotriya@gmail.com & 15209073149 & 15207776881 & \multirow{2}{100pt}{1631 W blue Horizon St} \\
+ & ashwini rajashekar & ashwini.karnik@gmail.com &  & 15202083748 & \\
+\hline
+\multirow{2}{70pt}{Maximilian Mueller} & Cindy Mueller & welovedogs@dogmadogdaycare.com & 520.465.3716 &  & \multirow{2}{100pt}{3028 E 1st Street, Tucson, AZ 85716} \\
+ & Philip Mueller & muellerfund@yahoo.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Jack Gibson} & Mary Gibson & mjwao@yahoo.com & 5202501244 & 5208827138 & \multirow{2}{100pt}{1950 E 8th Street} \\
+ & David Gibson &  & 5208699213 &  & \\
+\hline
+\multirow{2}{70pt}{Axel Fraser } & Caryn Isom fraser & Cisomfraser@cox.net & 520.275.6504 &  & \multirow{2}{100pt}{3318 e Terra Alta Blvd. Tucson az 85716 } \\
+ & Gord Fraser  & Ghfraser@aol.com & 520.275.1221 &  & \\
+\hline
+\multirow{2}{70pt}{Ana Furlong} & Veronica Furlong & veronicaf@email.arizona.edu & 5208226711 &  & \multirow{2}{100pt}{} \\
+ & Matthew Furlong & furlong1@email.arizona.edu & 5206474686 &  & \\
+\hline
+\multirow{2}{70pt}{Adrian Peralta} & Francine Martinez & frmartinez.az@gmail.com & 5209544601 & 5203054955 & \multirow{2}{100pt}{2726 E 6th St} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Leo Ravia} & Daniel Ravia & fuddxx@gmail.com & 520-234-1458 & 520-321-1042 & \multirow{2}{100pt}{2752 N. Edith Blvd. (16)} \\
+ & Jennifer Ravia & jravia@email.arizona.edu & 520-971-2879 & 520-321-1042 & \\
+\hline
+\multirow{2}{70pt}{Hayes Rainie} & Stephanie Carroll Rainie & scbegonias@gmail.com & 520.271.7377 &  & \multirow{2}{100pt}{2516 E 4th ST} \\
+ & David Rainie & davidrainie@gmail.com & 520.789.1272 &  & \\
+\hline
+\multirow{2}{70pt}{Sophia Castaneda} & Tina Castaneda & tmh82179@gmail.com & 520-991-7816 &  & \multirow{2}{100pt}{2338 W. Horseshoe pl.Tucson, Az 85745} \\
+ & Daniel Castaneda & dcastanedarx@gmail.com & 520-237-4341 &  & \\
+\hline
+\end{longtable}
+\newpage
+\section{5th}
+\subsection{Grogan}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Nate Parizek} & Julie Parizek & Desertsun33@yahoo.com & 5204491795 & 5294491795 & \multirow{2}{100pt}{2618 E. Waverly St., Tucson, AZ. 85716} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Yahan Liu} & Jun Zhang & 13522995266@163.com & 520-328-7297 &  & \multirow{2}{100pt}{2929 E 6th st APT 106, Tucson, AZ 85716} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Rio Gomez Khmara} & Danyelle Khmara & danyellekhmara@gmail.com & (818) 512-1389 &  & \multirow{2}{100pt}{1008 N Queen Ave.} \\
+ & Laura McAndrews Gomez &  & (520) 401-1225 &  & \\
+\hline
+\multirow{2}{70pt}{Scarlett Reed} & Hope Reed & hopehreed@gmail.com & 978-500-2627 & 520-622-1301 & \multirow{2}{100pt}{479 South Convent Avenue Tucson AZ  85701} \\
+ & Craig Reed & craig@tracmedia.com & 617-429-2678 & 520-622-1301 & \\
+\hline
+\multirow{2}{70pt}{Allison Rutkowski } & Lesleigh Rutkowski  & Lesleigh.rutkowski@hotmail.com & 520-471-6277 &  & \multirow{2}{100pt}{} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Maya Renzetti } & Michelle  & Mrenzetti@hmail.com & 520-401-1919 &  & \multirow{2}{100pt}{2906 E 2nd St} \\
+ & Michelle Renzetti & mrenzetti8@gmail.com & 5204011919 & 5204011919 & \\
+\hline
+\multirow{2}{70pt}{Tabitha Clark} & Lori Kindler & lkindler@gmail.com & 520-239-6663 &  & \multirow{2}{100pt}{3453 E Bunell St} \\
+ & Ken Youens-Clark & kyclark@gmail.com & 520-328-4516 &  & \\
+\hline
+\multirow{2}{70pt}{Quincy Kirsten} & Wolf Kirsten & wk@wolfkirsten.com & 5202418142 &  & \multirow{2}{100pt}{3232 e hawthorne street tucson AZ 85716} \\
+ & Holly Fletcher  & hollyf@habitattucson.org & 5201418837 &  & \\
+\hline
+\multirow{2}{70pt}{Riley, Snyder} & Leslie, Snyder & leslieasnyder79@gmail.com & 520-312-8963 &  & \multirow{2}{100pt}{1810 E Blacklidge Dr. #606} \\
+ & Manuel, Snyder &  & 520-488-8709 &  & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{Barry}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Zachary Askren} & Toby Askren & toby@askrens.com & 520-248-0203 &  & \multirow{2}{100pt}{4357 N. Rio Cancion #370} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Janae Peralta} & Vanessa Peralta  & Kalita2583@hotmail.com & 5209901411 &  & \multirow{2}{100pt}{} \\
+ & Billy Peralta & Kalita2583@yahoo.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Mariasha Taariq} & AFM Tariqul Islam & tariq\_du@yahoo.com & 5204050115 & 5204050115 & \multirow{2}{100pt}{5402 E. 3rd St. Tucson, AZ85711} \\
+ & Pricila Moly & pricilam75@yahoo.com & 5202475934 &  & \\
+\hline
+\multirow{2}{70pt}{Eleanor Helseth} & Lynn Helseth & lhelseth@earthlink.net & 520-204-0593 &  & \multirow{2}{100pt}{} \\
+ & Greg Helseth & glhelseth@earthlink.net & 520-204-3251 &  & \\
+\hline
+\multirow{2}{70pt}{Ailsa Douglas} & Jenny Douglas & Jenny@tilquhillie.com & 5202453631 & 5203268633 & \multirow{2}{100pt}{3009 E Waverly St} \\
+ & Gawain Douglas & Gawain@tilquhillie.com & 5202489305 & 5203268633 & \\
+\hline
+\multirow{2}{70pt}{Alexis Parra} & Lydia Parra & gaaaparra@gmail.com & 5204052314 & 5204052314 & \multirow{2}{100pt}{3217 w utah st} \\
+ & George Parra & gaaaparra@gmail.com & 5203902306 & 5204052314 & \\
+\hline
+\multirow{2}{70pt}{Kellyn Coney} & Lisa Hacker Coney & lhconey@gmail.com & 5209717080 &  & \multirow{2}{100pt}{4205 E Whittier St} \\
+ & Michel Coney &  & 5209717439 &  & \\
+\hline
+\multirow{2}{70pt}{Liam Lindeman} & Ellen Ruble & ellencruble@icloud.com & 520-548-4098 &  & \multirow{2}{100pt}{2626 E. Helen St} \\
+ & Mike Lindeman & mwlindeman@icloud.com & 520-548-4093 &  & \\
+\hline
+\end{longtable}
+\newpage
+\subsection{Kingsley}
+\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}
+Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\
+\hline
+\multirow{2}{70pt}{Mercedes Shay} & Audelia Shay  & audeliashay@gmail.com & 520-904-3925 &  & \multirow{2}{100pt}{1509 E. 12th Street 85719/721 N. 9th Ave 85705} \\
+ & Brian Shay & brianshay3@gmail.com & 520-904-3857 &  & \\
+\hline
+\multirow{2}{70pt}{Orion G. Abrell} & Athena Ganchorre & athena.ganchorre@gmail.com & 520 329 9566 & NA & \multirow{2}{100pt}{2936 E Elm Street} \\
+ & Leif Abrell & abrell@arizona.edu & 520 488 7475 &  & \\
+\hline
+\multirow{2}{70pt}{Samara Ortega} & Jesenia Ortega & jesenia\_ortega@hotmail.com & 5202821496 &  & \multirow{2}{100pt}{5455 N. Willow Thicket Way Tucson, AZ 85704} \\
+ & Alfredo Ortega &  & 5203102204 &  & \\
+\hline
+\multirow{2}{70pt}{Riley Pollard} & Marnie Pollard & marmpoll3@gmail.com & 520-349-6941 &  & \multirow{2}{100pt}{1821 N Tucson Blvd Tucson, AZ 85716} \\
+ & John Pollard &  & 520-349-7154 &  & \\
+\hline
+\multirow{2}{70pt}{Leo Edgin} & Jamie Edgin & jamie.edgin@gmail.com & 520-360-9021 &  & \multirow{2}{100pt}{3229 E. 3rd St.} \\
+ & Tony Edgin & tony.edgin@gmail.com & 5203338164 &  & \\
+\hline
+\multirow{2}{70pt}{Zane, Cwik} & Cami, Cwik & crcwik@me.com & 349-9832 & 207-3977 & \multirow{2}{100pt}{PO Box 43653} \\
+ & John, Cwik  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Alba Sabelli} & Paolo Sabelli & psabelli1@gmail.com &  & 520-795-3649 & \multirow{2}{100pt}{2629 N. Plumer Ave.} \\
+ & Ana Maria Lopez & anlo\_70@yahoo.com & 520-332-0976 & 520-795-3649 & \\
+\hline
+\multirow{2}{70pt}{Orion Abrell} & Leif Abrell & lagartica@hotmail.com & 5204887475 &  & \multirow{2}{100pt}{3136 E Waverly St., Tucson, AZ 85716} \\
+ & Athena Ganchorre & athenaganchorre@gmail.com & 5203299566 &  & \\
+\hline
+\multirow{2}{70pt}{Samantha Howard } & Lorena Romero  & Lorenaromero99@yahoo.com  & 520-406-0301 &  & \multirow{2}{100pt}{8526 e 19th st} \\
+ &  &  &  &  & \\
+\hline
+\multirow{2}{70pt}{Noah Wolgemuth} & Justine Wolgemuth & wolgemuth.5@gmail.com & 860-978-6186 &  & \multirow{2}{100pt}{} \\
+ & Charles Wolgemuth & wolg@physics.arizona.edu & 860-967-4343 &  & \\
+\hline
+\multirow{2}{70pt}{Ewan Wolgemuth} & Justine Wolgemuth & wolgemuth.5@gmail.com & 860-978-6186 &  & \multirow{2}{100pt}{} \\
+ & Charles Wolgemuth & wolg@physics.arizona.edu & 860-967-4343 &  & \\
+\hline
+\multirow{2}{70pt}{Samara Ortega} & Jessi Ortega & jesenia\_ortega@hotmail.com & 520-282-1496 &  & \multirow{2}{100pt}{5455 N. Willow Thicket Way Tucson, AZ 85704} \\
+ & Alfredo Ortega & ortega\_alfredo@hotmail.com &  &  & \\
+\hline
+\multirow{2}{70pt}{Abigail Cherkis} & Brenda Frye & brendafrye@gmail.com & 4156329103 & 4155054711 & \multirow{2}{100pt}{2610 E 9th St} \\
+ & Sergey Cherkis & cherkis@gmail.com & 4158101881 & 5205054711 & \\
+\hline
+\end{longtable}
+\newpage
+
+\hline
+
 
 \end{document}
