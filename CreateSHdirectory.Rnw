@@ -31,7 +31,7 @@ library(ggplot2)
 <<ReadIn, echo = FALSE, warning = FALSE, message=FALSE, results = 'hide', fig.keep='none'>>=
 dfall <- read.csv("DirectoryData/SHDirectory.csv", skip = 1, stringsAsFactors = FALSE)
 dfall$date <- as.Date(gsub("(.*)\\s.*", "\\1", dfall$Start.Date), "%Y-%m-%d")
-ggplot(dfall, aes(x = date)) + geom_bar() + xlim(as.Date(c("2016-08-29", "2016-9-26"))) + plotTheme()#highlight when emailwas sent
+# ggplot(dfall, aes(x = date)) + geom_bar() + xlim(as.Date(c("2016-08-29", "2016-9-26"))) + plotTheme()#highlight when emailwas sent
 
 df <- dfall[, 15:28]
 names(df) <- c("Child",
@@ -52,7 +52,7 @@ names(df) <- c("Child",
 df$Parent1.email.clean <- gsub("_", "\\\\_", df$Parent1.email)
 df$Parent2.email.clean <- gsub("_", "\\\\_", df$Parent2.email)
 df$Child.clean <- gsub("&", "\\\\&", df$Child)
-
+df$Address <- gsub("#", "\\\\#", df$Address)
 byStudent <- melt(df, id = c("Child", "Address", "Class"))
 
 @
@@ -69,8 +69,9 @@ for(j in 1:length(classes)){
     writeLines(paste0("\\subsection{", secClasses[k], "}"))
     tmpdf <- df[which(grepl(secClasses[k], df$Class)), ]
     #Print the table for the class
-    writeLines("\\begin{longtable}{p{70pt}|p{75pt}|p{120pt}|p{60pt}|p{60pt}|p{120pt}|}")
-    writeLines("Student Name & Parent Name & Parent e-mail & Cell Phone & Home Phone & Address\\\\")
+    writeLines("\\begin{longtable}{p{100pt}|p{90pt}|p{120pt}|p{60pt}|p{64pt}|p{120pt}|}")
+    writeLines("\\textbf{Student Name} & \\textbf{Parent Name} & \\textbf{Parent e-mail} & \\textbf{Cell Phone} & \\textbf{Home Phone} & \\textbf{Address}\\\\")
+    writeLines("\\hline")
     writeLines("\\hline")
     for(i in 1:dim(tmpdf)[1]){
       if(tmpdf$Child[i] != ""){
