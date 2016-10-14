@@ -51,7 +51,20 @@ names(df) <- c("Child",
 
 df$Parent1.email.clean <- gsub("_", "\\\\_", df$Parent1.email)
 df$Parent2.email.clean <- gsub("_", "\\\\_", df$Parent2.email)
+
+df[which(grepl("JULIAN GARCIA", df$Child)),]$Child <- "Julian Garcia"
+df[which(grepl("JULIAN GARCIA", df$Child, ignore.case = TRUE)), c("Parent1", "Parent1.email.clean")] <- c("Ashley Martinez", 
+                                                                                                          tolower(df[which(grepl("JULIAN GARCIA", df$Child, ignore.case = TRUE)),]$Parent1.email.clean))
+
 df$Child.clean <- gsub("&", "\\\\&", df$Child)
+df$Child.clean <- gsub(",", " ", df$Child.clean)
+df$Child.clean <- gsub("\\s+", " ", df$Child.clean)
+
+df$Parent1 <- gsub(",", " ", df$Parent1)
+df$Parent2 <- gsub(",", " ", df$Parent2)
+df$Parent1 <- gsub("\\s+", " ", df$Parent1)
+df$Parent2 <- gsub("\\s+", " ", df$Parent2)
+
 df$Address <- gsub("#", "\\\\#", df$Address)
 byStudent <- melt(df, id = c("Child", "Address", "Class"))
 
@@ -68,14 +81,15 @@ for(j in 1:length(classes)){
   for(k in 1:length(secClasses)){
     writeLines(paste0("\\subsection{", secClasses[k], "}"))
     tmpdf <- df[which(grepl(secClasses[k], df$Class)), ]
+    tmpdf <- tmpdf[order(tmpdf$Child), ]
     #Print the table for the class
-    writeLines("\\begin{longtable}{p{100pt}|p{90pt}|p{120pt}|p{60pt}|p{64pt}|p{120pt}|}")
+    writeLines("\\begin{longtable}{|p{100pt}|p{100pt}|p{140pt}|p{60pt}|p{64pt}|p{120pt}|}")
     writeLines("\\textbf{Student Name} & \\textbf{Parent Name} & \\textbf{Parent e-mail} & \\textbf{Cell Phone} & \\textbf{Home Phone} & \\textbf{Address}\\\\")
     writeLines("\\hline")
     writeLines("\\hline")
     for(i in 1:dim(tmpdf)[1]){
       if(tmpdf$Child[i] != ""){
-        writeLines(paste0("\\multirow{2}{70pt}{", tmpdf$Child.clean[i], "} & ", tmpdf$Parent1[i], " & ", tmpdf$Parent1.email.clean[i], " & ", tmpdf$Parent1.cell[i], " & ", tmpdf$Parent1.home[i], " & ", "\\multirow{2}{100pt}{", tmpdf$Address[i], "} \\\\"))
+        writeLines(paste0("\\multirow{2}{100pt}{", tmpdf$Child.clean[i], "} & ", tmpdf$Parent1[i], " & ", tmpdf$Parent1.email.clean[i], " & ", tmpdf$Parent1.cell[i], " & ", tmpdf$Parent1.home[i], " & ", "\\multirow{2}{120pt}{", tmpdf$Address[i], "} \\\\"))
         writeLines(paste0(" & ", tmpdf$Parent2[i], " & ", tmpdf$Parent2.email.clean[i], " & ", tmpdf$Parent2.cell[i], " & ", tmpdf$Parent2.home[i], " & \\\\"))
         writeLines("\\hline")
         
