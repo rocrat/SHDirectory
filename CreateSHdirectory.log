@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.28)  20 OCT 2016 10:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.1.28)  7 NOV 2016 10:43
 entering extended mode
 **./CreateSHdirectory.tex
 (CreateSHdirectory.tex
@@ -354,152 +354,156 @@ Underfull \hbox (badness 10000) in paragraph at lines 115--115
 []|\OT1/cmr/m/n/10 +86-
  []
 
-[3] [4] [5]
-Overfull \hbox (5.97264pt too wide) in paragraph at lines 214--214
+[3] [4]
+Overfull \vbox (12.0pt too high) detected at line 203
+ []
+
+[5]
+Overfull \hbox (5.97264pt too wide) in paragraph at lines 226--226
 []|\OT1/cmr/m/n/10 krishnasbodypainting@gmail.com| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
+Underfull \hbox (badness 10000) in paragraph at lines 247--247
 []|\OT1/cmr/m/n/10 Starlight Noel-
  []
 
 
-Overfull \hbox (1.7781pt too wide) in paragraph at lines 235--235
-[]|\OT1/cmr/m/n/10 snoelarmenta@email.arizona.edu| 
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 235--235
-[]|\OT1/cmr/m/n/10 (520)979-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 236--236
-[]|\OT1/cmr/m/n/10 (520)955-
+Overfull \hbox (1.7781pt too wide) in paragraph at lines 247--247
+[]|\OT1/cmr/m/n/10 shoelarmenta@email.arizona.edu| 
  []
 
 [6]
-Underfull \hbox (badness 10000) in paragraph at lines 284--284
+Underfull \hbox (badness 10000) in paragraph at lines 293--293
 []|\OT1/cmr/m/n/10 Amanda Celaya-
  []
 
 [7]
-Underfull \hbox (badness 10000) in paragraph at lines 347--347
+Underfull \hbox (badness 10000) in paragraph at lines 356--356
 []|\OT1/cmr/m/n/10 Shelley Hawthorne-
  []
 
 
-Overfull \hbox (1.94478pt too wide) in paragraph at lines 352--352
+Overfull \hbox (1.94478pt too wide) in paragraph at lines 361--361
 []|\OT1/cmr/m/n/10 Lesleigh.rutkowski@hotmail.com| 
  []
 
-[8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 479--479
+[8] [9]
+Underfull \hbox (badness 10000) in paragraph at lines 452--452
+[]|\OT1/cmr/m/n/10 Edward and Taryn
+ []
+
+[10] [11] [12]
+Overfull \hbox (8.1115pt too wide) in paragraph at lines 524--524
+[]|\OT1/cmr/m/n/10 franckpoupeau@email.arizona.edu| 
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 542--542
 []|\OT1/cmr/m/n/10 (520)977-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 480--480
+Underfull \hbox (badness 10000) in paragraph at lines 543--543
 []|\OT1/cmr/m/n/10 (520)661-
  []
 
-[12]
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ƒ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ± in font cmr10!
-Missing character: There is no Ã in font cmr10!
-Missing character: There is no ƒ in font cmr10!
-Missing character: There is no Â in font cmr10!
-Missing character: There is no ± in font cmr10!
-
-Underfull \hbox (badness 8038) in paragraph at lines 542--542
-[]|\OT1/cmr/m/n/10 M Pa-tri-cia Dorado-
- []
-
-
-Overfull \hbox (20.00024pt too wide) in paragraph at lines 542--542
-[]|\OT1/cmr/m/n/10 0115216622048675| 
- []
-
 [13]
-Underfull \hbox (badness 10000) in paragraph at lines 575--575
+Underfull \hbox (badness 10000) in paragraph at lines 577--577
 []|\OT1/cmr/m/n/10 Stephanie Car-roll
  []
 
 
-Overfull \hbox (13.97256pt too wide) in paragraph at lines 584--584
+Overfull \hbox (13.97256pt too wide) in paragraph at lines 586--586
 []|\OT1/cmr/m/n/10 welovedogs@dogmadogdaycare.com| 
  []
 
 [14]
-Overfull \hbox (3.69481pt too wide) in paragraph at lines 636--636
-[]|\OT1/cmr/m/n/10 littlemountainstream@gmail.com| 
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ± in font cmr10!
+Missing character: There is no Ã in font cmr10!
+Missing character: There is no ƒ in font cmr10!
+Missing character: There is no Â in font cmr10!
+Missing character: There is no ± in font cmr10!
+
+Underfull \hbox (badness 8038) in paragraph at lines 651--651
+[]|\OT1/cmr/m/n/10 M Pa-tri-cia Dorado-
  []
 
 
-Overfull \hbox (3.69481pt too wide) in paragraph at lines 640--640
-[]|\OT1/cmr/m/n/10 littlemountainstream@gmail.com| 
+Overfull \hbox (20.00024pt too wide) in paragraph at lines 651--651
+[]|\OT1/cmr/m/n/10 0115216622048675| 
  []
 
 [15]
-Underfull \hbox (badness 10000) in paragraph at lines 650--650
+Overfull \hbox (3.69481pt too wide) in paragraph at lines 711--711
+[]|\OT1/cmr/m/n/10 littlemountainstream@gmail.com| 
+ []
+
+
+Overfull \hbox (3.69481pt too wide) in paragraph at lines 715--715
+[]|\OT1/cmr/m/n/10 littlemountainstream@gmail.com| 
+ []
+
+[16]
+Overfull \vbox (12.0pt too high) detected at line 737
+ []
+
+[17] [18]
+Underfull \hbox (badness 10000) in paragraph at lines 814--814
 []|\OT1/cmr/m/n/10 Miguel and Laura
  []
 
 
-Overfull \hbox (1.94478pt too wide) in paragraph at lines 653--653
+Overfull \hbox (1.94478pt too wide) in paragraph at lines 817--817
 []|\OT1/cmr/m/n/10 Lesleigh.rutkowski@hotmail.com| 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 659--659
+Underfull \hbox (badness 10000) in paragraph at lines 823--823
 []|\OT1/cmr/m/n/10 ANNETTE VA-LEN-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 677--677
+Underfull \hbox (badness 10000) in paragraph at lines 841--841
 []|\OT1/cmr/m/n/10 (818) 512-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--678
+Underfull \hbox (badness 10000) in paragraph at lines 842--842
 []|\OT1/cmr/m/n/10 Laura McAn-drews
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 678--678
+Underfull \hbox (badness 10000) in paragraph at lines 842--842
 []|\OT1/cmr/m/n/10 (520) 401-
  []
 
-[16] [17]
-Overfull \vbox (12.0pt too high) detected at line 745
- []
-
-[18]
+[19]
 ! Misplaced \noalign.
 \hline ->\noalign 
                   {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.772 \hline
+l.859 \hline
             
 I expect to see \noalign only after the \cr of
 an alignment. Proceed, and I'll ignore this case.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 775.
-[19]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 775.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 862.
+[20]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 862.
  (CreateSHdirectory.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 775.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 775.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 862.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 862.
 Package rerunfilecheck Info: File `CreateSHdirectory.out' has not changed.
-(rerunfilecheck)             Checksum: A559910430E1149874BDA172A725DD7D;1092.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 775.
+(rerunfilecheck)             Checksum: 3A121C8C970AC7F677536240AB298ADE;1092.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 862.
  ) 
 Here is how much of TeX's memory you used:
- 5744 strings out of 493634
- 84711 string characters out of 3143735
- 213706 words of memory out of 3000000
+ 5745 strings out of 493634
+ 84718 string characters out of 3143735
+ 217706 words of memory out of 3000000
  9032 multiletter control sequences out of 15000+200000
  5764 words of font info for 21 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -507,9 +511,9 @@ Here is how much of TeX's memory you used:
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
 ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr10.pfb>
-Output written on CreateSHdirectory.pdf (19 pages, 247252 bytes).
+Output written on CreateSHdirectory.pdf (20 pages, 253680 bytes).
 PDF statistics:
- 234 PDF objects out of 1000 (max. 8388607)
- 57 named destinations out of 1000 (max. 500000)
+ 238 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
  174 words of extra memory for PDF output out of 10000 (max. 10000000)
 
