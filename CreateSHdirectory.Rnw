@@ -29,7 +29,7 @@ library(ggplot2)
 
 % read in data from qualtrics and create directory pages
 <<ReadIn, echo = FALSE, warning = FALSE, message=FALSE, results = 'hide', fig.keep='none'>>=
-dfall <- read.csv("DirectoryData/SHDirectory_November_2.csv", skip = 1, stringsAsFactors = FALSE)
+dfall <- read.csv("DirectoryData/SHDirectory_November_8.csv", skip = 1, stringsAsFactors = FALSE)
 dfall$date <- as.Date(gsub("(.*)\\s.*", "\\1", dfall$Start.Date), "%Y-%m-%d")
 # ggplot(dfall, aes(x = date)) + geom_bar() + xlim(as.Date(c("2016-08-29", "2016-9-26"))) + plotTheme()#highlight when emailwas sent
 
@@ -109,6 +109,12 @@ df <- df[-which(grepl("Henry Masursky", df$Child.clean)), ]
 
 @
 
+
+<<WideData, echo = FALSE, eval = TRUE>>=
+dfl <- melt(df[, c(2:17)], id = "Child.clean")
+write.csv(dfl, file = "LongForm_SH_DirectoryData.csv")
+write.csv(df, file = "WideForm_SH_DirectoryData.csv")
+@
 
 %Separate out by grade and teacher then print a section and table for each
 
