@@ -29,7 +29,7 @@ library(ggplot2)
 
 % read in data from qualtrics and create directory pages
 <<ReadIn, echo = FALSE, warning = FALSE, message=FALSE, results = 'hide', fig.keep='none'>>=
-dfall <- read.csv("DirectoryData/SHDirectory_November_8.csv", skip = 1, stringsAsFactors = FALSE)
+dfall <- read.csv("DirectoryData/SHDirectory_December_19.csv", skip = 1, stringsAsFactors = FALSE)
 dfall$date <- as.Date(gsub("(.*)\\s.*", "\\1", dfall$Start.Date), "%Y-%m-%d")
 # ggplot(dfall, aes(x = date)) + geom_bar() + xlim(as.Date(c("2016-08-29", "2016-9-26"))) + plotTheme()#highlight when emailwas sent
 
@@ -53,8 +53,9 @@ df$Parent1.email.clean <- gsub("_", "\\\\_", df$Parent1.email)
 df$Parent2.email.clean <- gsub("_", "\\\\_", df$Parent2.email)
 
 df[which(grepl("JULIAN GARCIA", df$Child)),]$Child <- "Julian Garcia"
-df[which(grepl("JULIAN GARCIA", df$Child, ignore.case = TRUE)), c("Parent1", "Parent1.email.clean")] <- c("Ashley Martinez", 
-                                                                                                          tolower(df[which(grepl("JULIAN GARCIA", df$Child, ignore.case = TRUE)),]$Parent1.email.clean))
+df[which(grepl("JULIAN GARCIA", df$Child, ignore.case = TRUE)), c("Parent1", "Parent1.email.clean")] <- 
+  c("Ashley Martinez", tolower(df[which(grepl("JULIAN GARCIA", df$Child, ignore.case = TRUE)),]$Parent1.email.clean))
+
 
 df$Child.clean <- gsub("&", "\\\\&", df$Child)
 df$Child.clean <- gsub(",", " ", df$Child.clean)
@@ -72,6 +73,11 @@ df$Parent2 <- gsub("&", "\\\\&", df$Parent2)
 
 df$Address <- gsub("#", "\\\\#", df$Address)
 byStudent <- melt(df, id = c("Child", "Address", "Class"))
+
+df[which(df$Child.clean == "Sienna Whittier"), ]$Address <- df[which(df$Child.clean == "Sienna"), ]$Address
+df <- df[-which(df$Child.clean %in% c("Lyla Flores", "JOrdnaCarlton", "Sienna", "Joseph alexander flores", "Zenara Dattola", "Orion Abrell", "Quincy Reed Kirsten")), ]
+df[which(df$Child.clean == "Carlton"), ]$Child.clean <- "Jordna Carlton"
+df[which(df$Child.clean == "BROOKE VALENCIA"), c("Child.clean", "Parent1")] <- c("Brooke Valencia", "Annette Valencia")
 
 #Remove duplicate entries keeping the entry with the most data
 students <- unique(df$Child.clean)
